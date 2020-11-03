@@ -1,0 +1,199 @@
+%Article
+\documentclass[12pt]{article}
+
+%Standard thesis size
+\usepackage[a4paper,left=3cm,right=2.5cm,top=3cm,bottom=3cm,]{geometry}
+
+%Loading comment package 
+\usepackage{comment}
+
+%Not sure
+\usepackage[english]{babel}
+
+% References I'd guess 
+\usepackage{hyperref} 
+
+%Mathematical expressions 
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Where are the images
+\usepackage{graphicx}
+\graphicspath{{./Images/}}
+
+% inputs 
+\usepackage[utf8]{inputenc}
+
+%Using Sub files
+\usepackage{subfiles}
+
+%images in here 
+\graphicspath{{./Images/}}
+
+%tables 
+\usepackage{tabularx}
+
+%using a colored text 
+\usepackage{xcolor}
+
+% Thesis format
+\usepackage[DF,newLogo]{uaThesis}
+\setlength\extrarowheight{2pt}
+	
+% optional: visual delimiters for floats (figures and tables)
+\def\topfigrule{\kern 7.8pt \hrule width\textwidth\kern -8.2pt\relax}
+\def\dblfigrule{\kern 7.8pt \hrule width\textwidth\kern -8.2pt\relax}
+\def\botfigrule{\kern -7.8pt \hrule width\textwidth\kern 8.2pt\relax}
+
+%nova pagina ao fim da seção
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+%\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+%\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold 
+%\usepackage{apacite}
+\def\ThesisYear{2020}
+
+\begin{document}
+
+
+\TitlePage
+  \HEADER{\BAR\FIG{\includegraphics[height=60mm]{uaLogoNew.pdf}}} 
+%	
+  {\ThesisYear}
+  \TITLE{ João Pedro Dias Rodrigues }
+        {Title pending ;\_; "A Study of possible extensions of the Standard model based on multiple Higgs Models" }
+\EndTitlePage
+\titlepage\ \endtitlepage % empty page
+
+\TitlePage
+  \vspace*{55mm}
+  \TEXT{\textbf{o j\'uri~/~the jury\newline}}
+       {}
+  \TEXT{presidente}
+       {\textbf{Margarida Facão}\newline {\small
+        Professora Auxiliar do Departamento de Física da Universidade de Aveiro}}
+  \vspace*{5mm}
+  \TEXT{vogais}
+       {\textbf{António Morais}\newline {\small Investigador Pos-doc do Departamento de Física da Universidade de Aveiro}}
+  \vspace*{5mm}
+  \TEXT{}
+       {\textbf{Nuno Castro?}\newline {\small
+        Professor at the University of Minho. Researcher at LIP and ATLAS experiment at CERN. }}
+  \vspace*{5mm}
+\EndTitlePage
+\titlepage\ \endtitlepage % empty page
+
+\TitlePage
+  \vspace*{55mm}
+  \TEXT{\textbf{agradecimentos~/\newline acknowledgements}}
+       {Honestamente acho que isto vai ter que ser escrito antes da entrega }
+  \TEXT{}
+       {Honestly this will be written in english translated poorly from above :) }
+\EndTitlePage
+\titlepage\ \endtitlepage % empty page
+
+\TitlePage
+  \vspace*{55mm}
+  \TEXT{\textbf{Resumo}}
+       {
+       % Primeiro uma introdução sobre o que falta do modelo padrão.  
+       % Depois a Parte do BLSM
+       % Depois a Parte do 3HDM
+       % Future work, should it be mentioned here?
+       %
+       Esta parte esta em pt }
+\EndTitlePage
+\titlepage\ \endtitlepage % empty page
+
+\TitlePage
+  \vspace*{55mm}
+  \TEXT{\textbf{Abstract}}
+       {
+       The Standard Model of particle physics has been for some time now recognized as a placeholder theory. Too many problems have been propping up over the years, such as the strong CP problem, neutrino oscillations, matter–antimatter asymmetry, the nature of dark matter and dark energy and most recently the {\color{blue} existence of gravitational waves background ?}. In response many theories have been proposed to deal with each one of these problems. However, it's important to realise that these are not independent problems and as such we must search for a way to tackle all of these. Here we propose a simple model and look into some (maybe all?) of these problems. 
+       }
+\EndTitlePage
+\titlepage\ \endtitlepage % empty page
+
+
+\pagenumbering{roman}
+\tableofcontents
+
+\cleardoublepage
+\listoffigures
+
+\cleardoublepage
+\listoftables
+
+\cleardoublepage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\include{Introduction}
+
+\include{The Standard Model}
+
+\include{BLSM}
+
+\include{3HDM}
+
+\include{Conclusions}
+
+% \section{The Standard Model}
+
+% It is hard to question that the Standard Model (SM) is a successful framework approximately describing the phenomenology of Particle Physics up to the largest energy scales probed by collider measurements so far.  In fact, contemporary direct searches for new physics or indirect probes via e.g. flavour anomalies, have been showing an increasingly consistency with SM predictions. However,  it is not false to state that the SM also possesses its weaknesses and several open questions are yet to be understood.% \section{U1DM}The SM does not account for small neutrino masses, {\color{red} nor does it include gravitational interactions {\color{blue}{(relevance?)}}} for example.
+
+%\begin{figure}[h]
+%\centering
+%	\includegraphics[width=0.7 \linewidth]{SM.png}
+%  	\caption{
+%  	A diagram of the types and groups of particles that comprise the SM containing information about spin, mass and charge \cite{wiki:sm}.
+%  	}
+%  
+%\label{fig:SMdiag} 
+%\end{figure}
+
+%As shown in the diagram of Fig. \ref{fig:SMdiag} the Standard Model is composed by force carriers, the weak gauge bosons W and Z, the photon, the electromagnetic interaction messenger and the strong force mediators, the gluons, as well by matter particles, the quarks and leptons. Being that the Higgs boson is responsible for the mass generation mechanism.
+
+%Fermions are organized in three generations. Furthermore, there are 6 different types of quarks, up and down for the first generation, charm and strange for the second as well as top and bottom for the third one. Similarly, there are 6 types of leptons, the charged ones, electron, muon and tau, and the associated neutrinos, respectively represented by $(u,d,c,s,t,b)$ while leptons as $(e,\nu_{e},\mu,\nu_{\mu},\tau,\nu_{\tau})$
+
+%So far we have described the physical states that are often denoted as the building blocks of nature. However we have not yet explained how such states have acquired their masses and gauge quantum numbers, such as colour and electric charge. To see this, we start by noting the the SM is a gauge theory based on the group.
+
+%\begin{equation}
+%SU(3)_c \times SU(2)_L \times U(1)_Y \quad  .
+%\label{SMsymmetry}
+%\end{equation} 
+
+%Fermions are half integer spin particles most of which have electrical charge (except the neutrinos).  While quarks interact via the weak, electromagnetic and strong forces, the charged leptons only feel the electromagnetic and weak forces and the neutrinos are solely weakly interacting.  
+
+%A physical fermion is composed of a left-handed and a right-handed part. While the former transform as $SU(2)_L$ doublets and can be written as,
+
+%\begin{equation}
+%L^i= \begin{pmatrix}
+%\nu_{e_L} \\
+%e_L 
+%\end{pmatrix},\begin{pmatrix}
+%\nu_{\mu_L} \\
+%\mu_L 
+%\end{pmatrix}
+%,\begin{pmatrix}
+%\nu_{\tau_L} \\
+%\tau_L 
+%\end{pmatrix} \quad \text{and} \quad Q^i= \begin{pmatrix}
+%u_{L} \\
+%d_L 
+%\end{pmatrix},\begin{pmatrix}
+%c_{L} \\
+%s_L 
+%\end{pmatrix}
+%,\begin{pmatrix}
+%t_{L} \\
+%b_L 
+%\end{pmatrix} \quad ,
+%\end{equation}
+
+\bibliographystyle{plain}
+\bibliography{References}
+
+\end{document}
