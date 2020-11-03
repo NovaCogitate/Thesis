@@ -1,0 +1,142 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'image1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{560.19874389bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.57982806)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{image1.pdf}}%
+    \put(0.02327849,0.19003734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{image1.pdf}}%
+    \put(0.0537196,0.17213122){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{image1.pdf}}%
+    \put(0.08416126,0.15422511){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{image1.pdf}}%
+    \put(0.11460219,0.13452677){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{image1.pdf}}%
+    \put(0.14504313,0.11662065){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{image1.pdf}}%
+    \put(0.17548407,0.09871453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{image1.pdf}}%
+    \put(0.20771543,0.0790162){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{image1.pdf}}%
+    \put(0.23815816,0.06111008){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{image1.pdf}}%
+    \put(0.26859909,0.04141353){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{image1.pdf}}%
+    \put(0.29904003,0.02350741){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{image1.pdf}}%
+    \put(0.31515571,0.0055995){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{image1.pdf}}%
+    \put(0.36081801,0.0002282){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{image1.pdf}}%
+    \put(0.41274593,0.01097259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{image1.pdf}}%
+    \put(0.46646607,0.02171519){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{image1.pdf}}%
+    \put(0.52018621,0.03245957){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{image1.pdf}}%
+    \put(0.57211414,0.04320396){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{image1.pdf}}%
+    \put(0.62583428,0.05394834){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{image1.pdf}}%
+    \put(0.67955442,0.06469094){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{image1.pdf}}%
+    \put(0.73148234,0.07543533){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{image1.pdf}}%
+    \put(0.78520248,0.08617971){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{image1.pdf}}%
+    \put(0.83892262,0.0969241){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 9\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{image1.pdf}}%
+    \put(0.88368881,0.1076667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{image1.pdf}}%
+    \put(0,0.32075504){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{image1.pdf}}%
+    \put(0,0.35119598){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-15\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{image1.pdf}}%
+    \put(0,0.3816387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{image1.pdf}}%
+    \put(0.01432525,0.41387007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{image1.pdf}}%
+    \put(0.01432525,0.44431101){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{image1.pdf}}%
+    \put(0.01432525,0.47475194){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{image1.pdf}}%
+    \put(0,0.50698331){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{image1.pdf}}%
+    \put(0,0.53742425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 15\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{image1.pdf}}%
+    \put(0,0.56786697){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{image1.pdf}}%
+    \put(0.96516334,0.27956972){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 120\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{image1.pdf}}%
+    \put(0.96516334,0.30822022){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 140\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{image1.pdf}}%
+    \put(0.96516334,0.33508029){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 160\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{image1.pdf}}%
+    \put(0.96516334,0.36194036){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 180\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{image1.pdf}}%
+    \put(0.96516334,0.39059087){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{image1.pdf}}%
+    \put(0.96516334,0.41745094){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 220\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{image1.pdf}}%
+    \put(0.96516334,0.44610144){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 240\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{image1.pdf}}%
+    \put(0.96516334,0.47296151){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 260\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{image1.pdf}}%
+    \put(0.96516334,0.50161201){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 280\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{image1.pdf}}%
+    \put(0.96516334,0.52847208){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 300\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{image1.pdf}}%
+    \put(0.96516334,0.55712259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 320\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{image1.pdf}}%
+  \end{picture}%
+\endgroup%
