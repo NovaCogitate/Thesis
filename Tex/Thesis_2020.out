@@ -1,14 +1,26 @@
-\BOOKMARK [1][-]{section.1}{The Standard Model}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Gauge Principle}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.1.1}{ Symmetries }{subsection.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.2}{Higgs Mechanism}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.3}{Composition of the Standard Model}{section.1}% 5
-\BOOKMARK [2][-]{subsection.1.4}{Anomaly cancellation}{section.1}% 6
-\BOOKMARK [1][-]{section.2}{ Introduction and motivation for the Model 1}{}% 7
-\BOOKMARK [2][-]{subsection.2.1}{Neutrino masses}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.2}{Electro-Weak searches}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.1}{ Oblique parameter analysis }{subsection.2.2}% 10
-\BOOKMARK [3][-]{subsubsection.2.2.2}{ The \( g - 2 \)_ anomaly }{subsection.2.2}% 11
-\BOOKMARK [1][-]{section.3}{Appendix}{}% 12
-\BOOKMARK [2][-]{subsection.3.1}{Gamma Matrices}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.2}{Lagrangian Dynamics}{section.3}% 14
+\BOOKMARK [1][-]{section.1}{Introduction to Particle Physics}{}% 1
+\BOOKMARK [1][-]{section.2}{The Standard Model of Particle Physics}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Introduction}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Up to Gauge Theory?}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Symmetries }{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{In Minkowski space}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Classical Electrodynamics}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Gauge Transformations}{subsection.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Higgs Mechanism}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{Composition of the Standard Model}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.5}{Quantum fields}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Spin-0 Fields}{subsection.2.5}% 12
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Spin-1/2 Fields}{subsection.2.5}% 13
+\BOOKMARK [3][-]{subsubsection.2.5.3}{Gauge Theory}{subsection.2.5}% 14
+\BOOKMARK [2][-]{subsection.2.6}{Anomaly cancellation}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{B-L-SM Model}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Formulating the model}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Neutrino masses}{subsection.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.2}{Electro-Weak searches}{section.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.1}{ Oblique parameter analysis }{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.2}{ The \( g - 2 \)_ anomaly }{subsection.3.2}% 21
+\BOOKMARK [1][-]{section.4}{3HDM}{}% 22
+\BOOKMARK [1][-]{section.5}{Conclusions and Future Work}{}% 23
+\BOOKMARK [1][-]{section.6}{Appendix}{}% 24
+\BOOKMARK [2][-]{subsection.6.1}{Gamma Matrices}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.2}{Lagrangian Dynamics}{section.6}% 26

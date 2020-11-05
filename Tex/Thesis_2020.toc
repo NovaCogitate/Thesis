@@ -1,15 +1,27 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}The Standard Model}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Gauge Principle}{3}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1} Symmetries }{4}{subsubsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.2}Higgs Mechanism}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Composition of the Standard Model}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Anomaly cancellation}{5}{subsection.1.4}%
-\contentsline {section}{\numberline {2} Introduction and motivation for the Model 1}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Neutrino masses}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Electro-Weak searches}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1} Oblique parameter analysis }{7}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2} The $( g - 2 )_\mu $ anomaly }{7}{subsubsection.2.2.2}%
-\contentsline {section}{\numberline {3}Appendix}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Gamma Matrices}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Lagrangian Dynamics}{11}{subsection.3.2}%
+\contentsline {section}{\numberline {1}Introduction to Particle Physics}{1}{section.1}%
+\contentsline {section}{\numberline {2}The Standard Model of Particle Physics}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Introduction}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Up to Gauge Theory?}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Symmetries }{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}In Minkowski space}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Classical Electrodynamics}{4}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Gauge Transformations}{4}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Higgs Mechanism}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Composition of the Standard Model}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Quantum fields}{5}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Spin-0 Fields}{5}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Spin-1/2 Fields}{5}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Gauge Theory}{5}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Anomaly cancellation}{5}{subsection.2.6}%
+\contentsline {section}{\numberline {3}B-L-SM Model}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Formulating the model}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Neutrino masses}{8}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Electro-Weak searches}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1} Oblique parameter analysis }{8}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2} The $( g - 2 )_\mu $ anomaly }{8}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}3HDM}{9}{section.4}%
+\contentsline {section}{\numberline {5}Conclusions and Future Work}{10}{section.5}%
+\contentsline {section}{\numberline {6}Appendix}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Gamma Matrices}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Lagrangian Dynamics}{11}{subsection.6.2}%

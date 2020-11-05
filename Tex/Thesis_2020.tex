@@ -1,11 +1,14 @@
 %Article
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 
 %Standard thesis size
 \usepackage[a4paper,left=3cm,right=2.5cm,top=3cm,bottom=3cm,]{geometry}
 
 %Loading comment package 
 \usepackage{comment}
+
+% Good old Checkmarks
+\usepackage{pifont}
 
 %Not sure
 \usepackage[english]{babel}
@@ -57,6 +60,19 @@
 % Added in November 
 \usepackage{flexisym} % This package allows me to use a Prime in text format 
 
+%Shamelessly stolen, this makes life so much easier 
+\renewcommand{\(}{\left(}
+
+\renewcommand{\)}{\right)}
+
+\renewcommand{\[}{\left[}
+
+\renewcommand{\]}{\right]}
+
+%check marks
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
 \begin{document}
 
 
@@ -65,7 +81,7 @@
 %	
   {\ThesisYear}
   \TITLE{ João Pedro Dias Rodrigues }
-        {Title pending ;\_; "A Study of possible extensions of the Standard model based on multiple Higgs Models" }
+        {Title pending }
 \EndTitlePage
 \titlepage\ \endtitlepage % empty page
 

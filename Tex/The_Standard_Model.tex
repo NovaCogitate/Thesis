@@ -1,23 +1,24 @@
-\chapter{The Standard Model}
-\label{ch:SM}
+%\chapter{The Standard Model}
+%\label{ch:SM}
 
-\section{The Standard Model}
+\newpage 
 
-It is hard to question that the Standard Model (SM) is a successful approximately framework with whom to describe the phenomenology of Particle Physics up to the largest energy scales probed by collider measurements so far. Proposed in the sixties by Glashow,Salam and Weinberg it has been extensively tested. In fact, contemporary direct searches for new physics or indirect probes via e.g. flavour anomalies and precise electroweak parameter measured in proton-electron collisions, have been showing an increasingly consistency with SM predictions.  { \color{blue} These will show themselves fundamental for our study and we'll discuss these mechanisms in greater detail  over the course of this work. } % flavour mechanism in great detail later as many interesting features stem from this. . 
-{ \color{red}  Given this it is fair to say that the joint description of the  electromagnetic and the  weak  interaction  by  a  single  theory  certainly  is  one  of  major  achievements  of the physical science in this century. } 
+\section{The Standard Model of Particle Physics}
 
-However, it is far from perfect with several open questions that are yet to be fully understood, it is these questions that modern physicists use to justify the research made in the area of high energy physics and Phenomenology. One of such weaknesses is a missing explanation of tiny neutrino masses confirmed by flavour-oscillation experiments { \color{blue} which we will try to approach later in this dissertation }.  
+\subsection{Introduction}
+
+It is hard to question that the Standard Model (SM) describes successful approximate framework with whom to describe the phenomenology of Particle Physics up to the largest energy scales probed by collider measurements so far. Proposed in the sixties by Glashow, Salam and Weinberg it has been extensively tested and in contemporary direct searches for new physics or indirect probes via e.g. flavour anomalies and precise electroweak parameter measured in proton-electron collisions, has been showing an increasingly consistency with real results.  % { \color{blue} These will show themselves fundamental for our study and we'll discuss these mechanisms in greater detail  over the course of this work. } % flavour mechanism in great detail later as many interesting features stem from this. . 
+Given this it is fair to say that the joint description of the  electromagnetic and the  weak  interaction  by  a  single  theory  certainly  is  one  of  major  achievements  of the physical science in this century. 
+
+However, the SM  is far from perfect with several open questions that are yet to be fully understood, it is these questions that modern physicists use to justify the research made in the area of high energy physics and Phenomenology. As a example, one of such weaknesses is a missing explanation of tiny neutrino masses confirmed by flavour-oscillation experiments. 
 
 Given it's successes researchers have long been tempted to try to complete the SM somehow rather than fundamentally alter it. In fact several mechanisms have been proposed that build upon the SM rather than replace it. { \color{blue}  We'll investigate some of these in this project (BLSM 3HDM) . } 
 
-% Retirado do meu Projecto tenho que rescrever  
-% Building blocks and theoritical formulation 
-
-\subsection{Gauge Principle}
+\subsection{Up to Gauge Theory?}
 
 It is well known that symmetry played a very important role in the development of modern physics ever since Emmy Noether's first theorem, which derives conserved quantities from symmetries. Precisely the theorem states if an action is invariant under some group of transformations (symmetry), then there exist one or more conserved quantities (constants of motion) which are associated to these transformations. 
 
-The question that the lead to the framework of the standard model was:  upon imposing to a given Lagrangian the invariance under a certain symmetry, would it be possible to determine the form of the interaction among the particles? In other words, could symmetry also imply dynamics. This train of thought led to Quantum Electrodynamics (QED) the successful first prototype of quantum field theory.
+The question that the lead to the framework of the standard model was:  upon imposing to a given Lagrangian the invariance under a certain symmetry, would it be possible to determine the form of the interaction among the particles? In other words, could symmetry also imply dynamics. This train of thought led to Quantum Electrodynamics (QED) the first successful prototype of quantum field theory.
 
 In QED the existence and some of the properties of the gauge field (which we'll later identify as the photon) follow from a principle of invariance under local gauge transformations of the $U(1)$ group.
 
@@ -39,18 +40,66 @@ Also, the  concept  of  asymptotic  freedom
 played a crucial role to describe perturbatively the strong interaction at short distances, making the strong gauge bosons trapped. 
 % Should I meantion quantum chromodynamics? 
 
-\subsubsection{ Symmetries }
+\subsubsection{Symmetries }
+
+% para later convience I should Use dots above phi ... geez 
 
 A symmetry can be very broadly defined as a property of a system that is preserved or remains unchanged. However for our interests we are going to look at field transformations that leave a Lagrangian system invariant. To exemplify this consider the following generic transformation of a field $\phi$:
 \begin{equation}
-\phi \longrightarrow \phi^\prime \eqv \phi + \delta \phi 
+\phi \longrightarrow \phi^\prime = \phi + \delta \phi 
 \end{equation} 
 To be invariant means the langraingian will be unchanging, thus, 
 \begin{equation}
-\mathcal{L}(\phi) 
+\mathcal{L}(\phi , \frac{d \phi}{dt}  )  = \mathcal{L}(\phi^\prime , \frac{d \phi^\prime }{dt}  )
 \end{equation}
+Noether explored this relation, noting the Lagrangian would transform itself like, 
+\begin{equation}
+\mathcal{L}(\phi, \partial \phi) \longrightarrow \mathcal{L^\prime} (\phi+\delta \phi , \partial \phi + \delta \partial \phi )  
+\end{equation}
+leading to the form,
+\begin{equation}
+\mathcal{L}^\prime  = \mathcal{L}(\phi , \partial \phi ) 
++ \partial \phi \frac{\partial \mathcal{L}}{\partial\phi} 
++  \delta \frac{d\phi }{dt} \frac{\partial \mathcal{L}}{ \partial \frac{d\phi}{dt} }
+\end{equation}
+where assuming the equations of motion are satisfied $\left( \frac{ \partial \mathcal{L}}{\partial \phi}  = \frac{d}{dt} \frac{ \partial \mathcal{L}}{\frac{d \phi}{d t}} \right)$ we can reach a expression for the first order change in the Lagrangian given by, 
+\begin{equation}
+\mathcal{L}^\prime = \mathcal{L} + \frac{d}{dt} \left( \frac{ \partial \mathcal{L}}{ \partial \frac{d \phi}{dt}} \delta \phi \right) 
+\end{equation}
+Here we define, $j$, as the Noether Current, 
+\begin{equation}
+j= \frac{ \partial \mathcal{L}}{ \partial \frac{d \phi}{dt}} \delta \phi  
+\end{equation}
+This way we can define a transformation, $\delta \phi$ that leaves the action invariant, as, 
+\begin{equation}
+\delta \mathcal{S} = 0 \implies \delta \mathcal{L} = 0 \implies \frac{ \partial \mathcal{L}}{ \partial \frac{d \phi}{dt}} \delta \phi  = 0 \implies \frac{d \, j}{dt} = 0
+\end{equation}
+This way we can say that $j$ is constant, this means there is a conversed quantity. A simple real example of this would be the case of a projectile in Lagrangian physics. The lagrangian would be,
+\begin{equation}
+\mathcal{L} = \frac{1}{2}m\left(\frac{d\,x^2}{dt} + \frac{d\,y^2}{dt}\right) - mgy  
+\end{equation}
+We can see this is unchanged by moving the $x$ axis by a quantity $\epsilon$, translated by the $x^\prime$ transformation,
+\begin{equation}
+x^\prime \longrightarrow x + \epsilon \implies \frac{d\,x^\prime}{dt} \longrightarrow \frac{d\,x}{dt}  
+\end{equation}
+by checking the current, 
+\begin{equation}
+j= \frac{ \partial \mathcal{L}}{ \partial \frac{d \phi}{dt}} \delta \phi = m \frac{d\,x}{dt}
+\end{equation}
+is also conserved. We know this to be form of the momentum in the x-direction which we expected to be conserved in this problem. A more laborious exercise could show that conservation of energy comes from the invariance of an action under translations in time. And even things like conservation of charge, which are a little more complicated, come from this symmetry principle. 
 
+\subsubsection{In Minkowski space}
 
+In the normal 3+1 dimensional space the form of Noether's current changes to, 
+\begin{equation}
+\partial_\mu j^\mu = 0 \implies \frac{ \partial j^0 }{\partial t} + \nabla \cdot \mathbf{j} = 0  
+\end{equation}
+where we usually call $j^0$ the charge density while $\mathbf{j}$ is named the current density. 
+
+\subsubsection{Classical Electrodynamics}
+maybe if there is space  
+
+\subsubsection{Gauge Transformations}
 
 \subsection{Higgs Mechanism}
 
@@ -97,6 +146,37 @@ b_L
 \end{equation}
 
 }
+
+\subsection{Quantum fields}
+
+\subsubsection{Spin-0 Fields}
+
+
+Equation of Motion for Scalar Fields
+
+Lagrangian for Scalar Fields
+
+Solutions to the Klein-Gordon Equation
+
+\subsubsection{Spin-1/2 Fields}
+
+Spinors 
+
+The Action for a Spin 1/2 Field
+
+Parity and Handedness
+
+Weyl Spinors in Any Representation
+
+Solutions to the Dirac Equation
+
+\subsubsection{Gauge Theory}
+
+Conserved currents 
+
+The Dirac Equation with an Electromagnetic Field
+
+Gauging the Symmetry / Charge conjugation
 
 \subsection{Anomaly cancellation}
 

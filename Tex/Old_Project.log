@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.9)  2 NOV 2020 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.9)  5 NOV 2020 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,11 +634,10 @@ LaTeX Info: Redefining \nameref on input line 50.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-</home/pedro/Desktop/Tese/Tex/uaLogoNew.pdf, id=92, 60.225pt x 75.28125pt>
-File: /home/pedro/Desktop/Tese/Tex/uaLogoNew.pdf Graphic file (type pdf)
-<use /home/pedro/Desktop/Tese/Tex/uaLogoNew.pdf>
-Package pdftex.def Info: /home/pedro/Desktop/Tese/Tex/uaLogoNew.pdf  used on in
-put line 55.
+<uaLogoNew.pdf, id=92, 60.225pt x 75.28125pt>
+File: uaLogoNew.pdf Graphic file (type pdf)
+<use uaLogoNew.pdf>
+Package pdftex.def Info: uaLogoNew.pdf  used on input line 55.
 (pdftex.def)             Requested size: 136.60036pt x 170.71652pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
@@ -652,16 +651,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<uaLogoNew.pdf, id=93, 60.225pt x 75.28125pt>
 File: uaLogoNew.pdf Graphic file (type pdf)
 <use uaLogoNew.pdf>
 Package pdftex.def Info: uaLogoNew.pdf  used on input line 55.
 (pdftex.def)             Requested size: 20.48633pt x 25.60747pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/pedro/Desktop/Tese/T
-ex/uaLogoNew.pdf> <./uaLogoNew.pdf>]pdfTeX warning (ext4): destination with the
- same identifier (name{page.1}) has been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./uaLogoNew.pdf>]pdfTeX wa
+rning (ext4): destination with the same identifier (name{page.1}) has been alre
+ady used, duplicate ignored
 <to be read again> 
                    \relax 
 l.59 \titlepage\ \endtitlepage
@@ -758,7 +756,7 @@ LaTeX Warning: Citation `costa2012symmetries' on page 4 undefined on input line
  278.
 
 [4]
-<./Images_Old/SM.png, id=266, 1204.5pt x 920.84026pt>
+<./Images_Old/SM.png, id=263, 1204.5pt x 920.84026pt>
 File: ./Images_Old/SM.png Graphic file (type png)
 <use ./Images_Old/SM.png>
 Package pdftex.def Info: ./Images_Old/SM.png  used on input line 289.
@@ -773,7 +771,7 @@ LaTeX Warning: Citation `wiki:sm' on page 5 undefined on input line 290.
 [5
 
  <./Images_Old/SM.png>] [6] [7]
-<./Images_Old/Des.png, id=301, 444.15938pt x 135.50626pt>
+<./Images_Old/Des.png, id=298, 444.15938pt x 135.50626pt>
 File: ./Images_Old/Des.png Graphic file (type png)
 <use ./Images_Old/Des.png>
 Package pdftex.def Info: ./Images_Old/Des.png  used on input line 542.
@@ -826,7 +824,7 @@ e 1169.
 LaTeX Warning: Citation `staub2012tool' on page 19 undefined on input line 1169
 .
 
-<./Images_Old/shizzle.png, id=443, 1227.98775pt x 2112.693pt>
+<./Images_Old/shizzle.png, id=440, 1227.98775pt x 2112.693pt>
 File: ./Images_Old/shizzle.png Graphic file (type png)
 <use ./Images_Old/shizzle.png>
 Package pdftex.def Info: ./Images_Old/shizzle.png  used on input line 1173.
@@ -838,39 +836,39 @@ Overfull \vbox (4.83316pt too high) has occurred while \output is active []
 
 
 [20 <./Images_Old/shizzle.png>]
-<./Images_Old/invertido.pdf, id=457, 551.05875pt x 559.08875pt>
+<./Images_Old/invertido.pdf, id=454, 551.05875pt x 559.08875pt>
 File: ./Images_Old/invertido.pdf Graphic file (type pdf)
 <use ./Images_Old/invertido.pdf>
 Package pdftex.def Info: ./Images_Old/invertido.pdf  used on input line 1196.
 (pdftex.def)             Requested size: 196.3041pt x 199.16463pt.
-<./Images_Old/cone.png, id=458, 778.91pt x 629.35126pt>
+<./Images_Old/cone.png, id=455, 778.91pt x 629.35126pt>
 File: ./Images_Old/cone.png Graphic file (type png)
 <use ./Images_Old/cone.png>
 Package pdftex.def Info: ./Images_Old/cone.png  used on input line 1200.
 (pdftex.def)             Requested size: 216.0966pt x 174.60382pt.
-<./Images_Old/Logh11cone.png, id=465, 722.7pt x 565.11125pt>
+<./Images_Old/Logh11cone.png, id=462, 722.7pt x 565.11125pt>
 File: ./Images_Old/Logh11cone.png Graphic file (type png)
 <use ./Images_Old/Logh11cone.png>
 Package pdftex.def Info: ./Images_Old/Logh11cone.png  used on input line 1223.
 (pdftex.def)             Requested size: 216.09488pt x 168.97418pt.
-<./Images_Old/Logh2cone.png, id=466, 662.475pt x 391.4625pt>
+<./Images_Old/Logh2cone.png, id=463, 662.475pt x 391.4625pt>
 File: ./Images_Old/Logh2cone.png Graphic file (type png)
 <use ./Images_Old/Logh2cone.png>
 Package pdftex.def Info: ./Images_Old/Logh2cone.png  used on input line 1227.
 (pdftex.def)             Requested size: 216.1004pt x 127.69568pt.
  [21 <./Images_Old/invertido.pdf> <./Images_Old/cone.png>]
-<./Images_Old/masscert.png, id=482, 662.475pt x 391.4625pt>
+<./Images_Old/masscert.png, id=479, 662.475pt x 391.4625pt>
 File: ./Images_Old/masscert.png Graphic file (type png)
 <use ./Images_Old/masscert.png>
 Package pdftex.def Info: ./Images_Old/masscert.png  used on input line 1236.
 (pdftex.def)             Requested size: 337.0592pt x 199.17134pt.
-<./Images_Old/h1-random-scan.png, id=483, 648.021pt x 403.5075pt>
+<./Images_Old/h1-random-scan.png, id=480, 648.021pt x 403.5075pt>
 File: ./Images_Old/h1-random-scan.png Graphic file (type png)
 <use ./Images_Old/h1-random-scan.png>
 Package pdftex.def Info: ./Images_Old/h1-random-scan.png  used on input line 12
 44.
 (pdftex.def)             Requested size: 216.1011pt x 134.56168pt.
-<./Images_Old/h2-random-scan.png, id=484, 558.888pt x 346.896pt>
+<./Images_Old/h2-random-scan.png, id=481, 558.888pt x 346.896pt>
 File: ./Images_Old/h2-random-scan.png Graphic file (type png)
 <use ./Images_Old/h2-random-scan.png>
 Package pdftex.def Info: ./Images_Old/h2-random-scan.png  used on input line 12
@@ -878,7 +876,7 @@ Package pdftex.def Info: ./Images_Old/h2-random-scan.png  used on input line 12
 (pdftex.def)             Requested size: 216.1011pt x 134.12967pt.
  [22 <./Images_Old/Logh11cone.png> <./Images_Old/Logh2cone.png> <./Images_Old/m
 asscert.png>]
-<./Images_Old/h1shape2loops.png, id=495, 549.252pt x 420.97275pt>
+<./Images_Old/h1shape2loops.png, id=492, 549.252pt x 420.97275pt>
 File: ./Images_Old/h1shape2loops.png Graphic file (type png)
 <use ./Images_Old/h1shape2loops.png>
 Package pdftex.def Info: ./Images_Old/h1shape2loops.png  used on input line 126
@@ -886,34 +884,34 @@ Package pdftex.def Info: ./Images_Old/h1shape2loops.png  used on input line 126
 (pdftex.def)             Requested size: 259.85817pt x 199.1676pt.
  [23 <./Images_Old/h1-random-scan.png> <./Images_Old/h2-random-scan.png> <./Ima
 ges_Old/h1shape2loops.png>]
-<./Images_Old/h1exc.png, id=505, 444.4605pt x 360.74776pt>
+<./Images_Old/h1exc.png, id=502, 444.4605pt x 360.74776pt>
 File: ./Images_Old/h1exc.png Graphic file (type png)
 <use ./Images_Old/h1exc.png>
 Package pdftex.def Info: ./Images_Old/h1exc.png  used on input line 1277.
 (pdftex.def)             Requested size: 216.1011pt x 175.3973pt.
-<./Images_Old/h2exc.png, id=506, 449.2785pt x 359.54324pt>
+<./Images_Old/h2exc.png, id=503, 449.2785pt x 359.54324pt>
 File: ./Images_Old/h2exc.png Graphic file (type png)
 <use ./Images_Old/h2exc.png>
 Package pdftex.def Info: ./Images_Old/h2exc.png  used on input line 1281.
 (pdftex.def)             Requested size: 216.1011pt x 172.94087pt.
-<./Images_Old/Pvalh1.png, id=509, 445.665pt x 363.15675pt>
+<./Images_Old/Pvalh1.png, id=506, 445.665pt x 363.15675pt>
 File: ./Images_Old/Pvalh1.png Graphic file (type png)
 <use ./Images_Old/Pvalh1.png>
 Package pdftex.def Info: ./Images_Old/Pvalh1.png  used on input line 1290.
 (pdftex.def)             Requested size: 216.1011pt x 176.09201pt.
-<./Images_Old/Pvalh2.png, id=510, 445.665pt x 360.74776pt>
+<./Images_Old/Pvalh2.png, id=507, 445.665pt x 360.74776pt>
 File: ./Images_Old/Pvalh2.png Graphic file (type png)
 <use ./Images_Old/Pvalh2.png>
 Package pdftex.def Info: ./Images_Old/Pvalh2.png  used on input line 1294.
 (pdftex.def)             Requested size: 216.1011pt x 174.9239pt.
  [24 <./Images_Old/h1exc.png> <./Images_Old/h2exc.png>]
-<./Images_Old/h1vsh2vsobs.png, id=518, 528.7755pt x 451.6875pt>
+<./Images_Old/h1vsh2vsobs.png, id=515, 528.7755pt x 451.6875pt>
 File: ./Images_Old/h1vsh2vsobs.png Graphic file (type png)
 <use ./Images_Old/h1vsh2vsobs.png>
 Package pdftex.def Info: ./Images_Old/h1vsh2vsobs.png  used on input line 1301.
 
 (pdftex.def)             Requested size: 233.16219pt x 199.17043pt.
-<./Images_Old/signals.png, id=519, 539.01375pt x 420.97275pt>
+<./Images_Old/signals.png, id=516, 539.01375pt x 420.97275pt>
 File: ./Images_Old/signals.png Graphic file (type png)
 <use ./Images_Old/signals.png>
 Package pdftex.def Info: ./Images_Old/signals.png  used on input line 1311.
@@ -955,16 +953,13 @@ Package rerunfilecheck Info: File `Old_Project.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1449.
  ) 
 Here is how much of TeX's memory you used:
- 10988 strings out of 481239
- 172304 string characters out of 5920378
+ 10981 strings out of 481239
+ 172008 string characters out of 5920378
  557189 words of memory out of 5000000
- 25809 multiletter control sequences out of 15000+600000
+ 25803 multiletter control sequences out of 15000+600000
  546044 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,17n,48p,1210b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -987,10 +982,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Old_Project.pdf (42 pages, 3796388 bytes).
+Output written on Old_Project.pdf (42 pages, 3795391 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
+ 653 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
  174 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
