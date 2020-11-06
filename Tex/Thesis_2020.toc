@@ -16,12 +16,12 @@
 \contentsline {subsection}{\numberline {2.6}Anomaly cancellation}{5}{subsection.2.6}%
 \contentsline {section}{\numberline {3}B-L-SM Model}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Formulating the model}{6}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Neutrino masses}{8}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Electro-Weak searches}{8}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1} Oblique parameter analysis }{8}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2} The $( g - 2 )_\mu $ anomaly }{8}{subsubsection.3.2.2}%
-\contentsline {section}{\numberline {4}3HDM}{9}{section.4}%
-\contentsline {section}{\numberline {5}Conclusions and Future Work}{10}{section.5}%
-\contentsline {section}{\numberline {6}Appendix}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Gamma Matrices}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Lagrangian Dynamics}{11}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {3.1.1}Scalar sector}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Gauge Sector}{9}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}The Yukawa sector}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Phenomenological analysis}{12}{subsection.3.3}%
+\contentsline {section}{\numberline {4}3HDM}{13}{section.4}%
+\contentsline {section}{\numberline {5}Conclusions and Future Work}{14}{section.5}%
+\contentsline {section}{\numberline {6}Appendix}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Gamma Matrices}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Lagrangian Dynamics}{15}{subsection.6.2}%
