@@ -4,6 +4,9 @@
 %Standard thesis size
 \usepackage[a4paper,left=3cm,right=2.5cm,top=3cm,bottom=3cm,]{geometry}
 
+%To make [H] Work
+\usepackage{float}
+
 %Loading comment package 
 \usepackage{comment}
 
@@ -39,6 +42,11 @@
 
 %using a colored text 
 \usepackage{xcolor}
+
+\newcommand{\ro}[1]{\textrm{#1}}
+\newcommand{\U}[1]{\mathrm{U}(1)_{\mathrm{#1}}}
+\newcommand{\Z}[1]{\mathrm{Z}(1)_{\mathrm{#1}}}			
+\newcommand{\SU}[1]{\mathrm{SU}(2)_{\mathrm{#1}}}			
 
 % Thesis format
 \usepackage[DF,newLogo]{uaThesis}
@@ -82,7 +90,7 @@
 %	
   {\ThesisYear}
   \TITLE{ João Pedro Dias Rodrigues }
-        {Title pending }
+        { A Study of possibilities beyond the Standard Model}
 \EndTitlePage
 \titlepage\ \endtitlepage % empty page
 
@@ -130,7 +138,7 @@
   \vspace*{55mm}
   \TEXT{\textbf{Abstract}}
        {
-       The Standard Model of particle physics has been for some time now recognized as a placeholder theory. Too many problems have been propping up over the years, such as the strong CP problem, neutrino oscillations, matter–antimatter asymmetry, the nature of dark matter and dark energy and most recently the {\color{blue} existence of gravitational waves background ?}. In response many theories have been proposed to deal with each one of these problems. However, it's important to realise that these are not independent problems and as such we must search for a way to tackle all of these. Here we propose a simple model and look into some (maybe all?) of these problems. 
+       This part will be in English 
        }
 \EndTitlePage
 \titlepage\ \endtitlepage % empty page

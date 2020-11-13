@@ -1,7 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{The Standard Model of Particle Physics}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Composition of the Standard Model}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Gauging U\(1\): The example of Quantum Electrodynamics}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Internal symmetry and components of the Standard Model}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Fields and Lagrangian}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{The Higgs mechanism and the mass generation of the Gauge bosons}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{The fermion sector on the Standard Model}{section.2}% 6
 \BOOKMARK [1][-]{section.3}{B-L-SM Model}{}% 7
@@ -10,8 +10,12 @@
 \BOOKMARK [3][-]{subsubsection.3.1.2}{Gauge Sector}{subsection.3.1}% 10
 \BOOKMARK [2][-]{subsection.3.2}{The Yukawa sector}{section.3}% 11
 \BOOKMARK [2][-]{subsection.3.3}{Phenomenological analysis}{section.3}% 12
-\BOOKMARK [1][-]{section.4}{3HDM}{}% 13
-\BOOKMARK [1][-]{section.5}{Conclusions and Future Work}{}% 14
-\BOOKMARK [1][-]{section.6}{Appendix}{}% 15
-\BOOKMARK [2][-]{subsection.6.1}{Gamma Matrices}{section.6}% 16
-\BOOKMARK [2][-]{subsection.6.2}{Lagrangian Dynamics}{section.6}% 17
+\BOOKMARK [2][-]{subsection.3.4}{Discussion of numerical results}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Implications of direct Z^ searches at the LHC for the \(g-2\)_ anomaly}{subsection.3.4}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Barr-Zee type contributions}{subsection.3.4}% 15
+\BOOKMARK [2][-]{subsection.3.5}{Conclusion}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{3HDM}{}% 17
+\BOOKMARK [1][-]{section.5}{Conclusions and Future Work}{}% 18
+\BOOKMARK [1][-]{section.6}{Appendix}{}% 19
+\BOOKMARK [2][-]{subsection.6.1}{Gamma Matrices}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.2}{Lagrangian Dynamics}{section.6}% 21

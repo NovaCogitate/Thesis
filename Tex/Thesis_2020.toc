@@ -1,18 +1,22 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \contentsline {section}{\numberline {2}The Standard Model of Particle Physics}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Composition of the Standard Model}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Gauging U(1): The example of Quantum Electrodynamics}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}The Higgs mechanism and the mass generation of the Gauge bosons}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.1}Internal symmetry and components of the Standard Model}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Fields and Lagrangian}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The Higgs mechanism and the mass generation of the Gauge bosons}{5}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}The fermion sector on the Standard Model}{8}{subsection.2.4}%
 \contentsline {section}{\numberline {3}B-L-SM Model}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Formulating the model}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Formulating the model}{11}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Scalar sector}{11}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Gauge Sector}{13}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}The Yukawa sector}{15}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Phenomenological analysis}{16}{subsection.3.3}%
-\contentsline {section}{\numberline {4}3HDM}{17}{section.4}%
-\contentsline {section}{\numberline {5}Conclusions and Future Work}{18}{section.5}%
-\contentsline {section}{\numberline {6}Appendix}{19}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Gamma Matrices}{19}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Lagrangian Dynamics}{19}{subsection.6.2}%
+\contentsline {subsection}{\numberline {3.4}Discussion of numerical results}{18}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Implications of direct $Z^\prime $ searches at the LHC for the $\left (g-2\right )_\mu $ anomaly}{19}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Barr-Zee type contributions}{23}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Conclusion}{24}{subsection.3.5}%
+\contentsline {section}{\numberline {4}3HDM}{25}{section.4}%
+\contentsline {section}{\numberline {5}Conclusions and Future Work}{26}{section.5}%
+\contentsline {section}{\numberline {6}Appendix}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Gamma Matrices}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Lagrangian Dynamics}{27}{subsection.6.2}%
