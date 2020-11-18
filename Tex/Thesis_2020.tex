@@ -1,5 +1,5 @@
 %Article
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 
 %Standard thesis size
 \usepackage[a4paper,left=3cm,right=2.5cm,top=3cm,bottom=3cm,]{geometry}
@@ -9,6 +9,9 @@
 
 %Loading comment package 
 \usepackage{comment}
+
+%This package slashes :) 
+\usepackage{slashed}
 
 % Good old Checkmarks
 \usepackage{pifont}
@@ -36,6 +39,9 @@
 
 %images in here 
 \graphicspath{{./Images/}}
+
+%Horizontal line
+\usepackage{cancel}
 
 %tables 
 \usepackage{tabularx}
@@ -124,13 +130,13 @@
 \TitlePage
   \vspace*{55mm}
   \TEXT{\textbf{Resumo}}
-       {
-       % Primeiro uma introdução sobre o que falta do modelo padrão.  
-       % Depois a Parte do BLSM
-       % Depois a Parte do 3HDM
-       % Future work, should it be mentioned here?
-       %
-       Esta parte esta em pt }
+       {É impossível debater que o surpreendente sucesso do modelo padrão de física de partículas o faz um dos maiores sucesso da ingenuidade humana, no entanto, apesar de o modelo padrão descrever com grande detalhe todas as partículas observadas e as suas interações e conseguir tratar um grande número de fenomeno  físicos onde era esperado encontrar falhas, tudo numa estrutura bem motivada, este é considerado incompleto. \\ { \color{green} 
+Introduzir motivação para a falha do SM. \\
+Introduzir motivação para mais Higgs. \\ 
+Introduzir motivação para o BLSM \\ 
+Introduzir motivação para o 3HDM} \\ 
+{\color{blue} Tocar nas conclusões?? }
+       }
 \EndTitlePage
 \titlepage\ \endtitlepage % empty page
 
@@ -138,7 +144,7 @@
   \vspace*{55mm}
   \TEXT{\textbf{Abstract}}
        {
-       This part will be in English 
+       This part will be in English. Translated from above. 
        }
 \EndTitlePage
 \titlepage\ \endtitlepage % empty page
@@ -157,6 +163,16 @@
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
+
+\section{Labels}
+
+{{\color{green}A paragraph or text to be added later  }
+
+{{\color{red}   A mistake or a question that is likely wrong }
+
+{{\color{blue}  A comment or doubt to ask or check}
+
+{{\color{gray} Excess? Probably will cut, waiting for advice} 
 
 \include{Introduction}
 
