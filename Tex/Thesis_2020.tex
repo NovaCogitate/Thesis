@@ -10,7 +10,10 @@
 %Loading comment package 
 \usepackage{comment}
 
-%This package slashes :) 
+% for fancy looking tables
+\usepackage{booktabs}   
+
+%This package slashes dirac operators 
 \usepackage{slashed}
 
 % Good old Checkmarks
@@ -21,6 +24,7 @@
 
 % References I'd guess 
 \usepackage{hyperref} 
+%\usepackage{apacite} 
 
 %Mathematical expressions 
 \usepackage{amsmath}
@@ -187,9 +191,7 @@ Introduzir motivação para o 3HDM} \\
 \include{Appendix}
 
 
-% \section{The Standard Model}
-
-\bibliographystyle{plain}
-\bibliography{References}
+\bibliography{bib.bib}
+\bibliographystyle{ieeetr}
 
 \end{document}
