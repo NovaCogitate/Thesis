@@ -6,20 +6,33 @@
 \BOOKMARK [0][-]{chapter.2}{The Standard Model of Particle Physics}{}% 6
 \BOOKMARK [1][-]{section.2.1}{Motivation}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.2}{Internal symmetry of the Standard Model}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.1}{Fields and Lagrangian}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Fields, Particles and Lagrangian of the SM}{section.2.2}% 9
 \BOOKMARK [1][-]{section.2.3}{The Higgs mechanism and the mass generation of the Gauge bosons}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.4}{Fermion Masses, Yukawa Couplings and the CKM Matrix}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.4.1}{Cabibbo\205Kobayashi\205Maskawa matrix}{section.2.4}% 12
-\BOOKMARK [2][-]{subsection.2.4.2}{Quantum chromodynamics}{section.2.4}% 13
-\BOOKMARK [0][-]{chapter.3}{B-L-SM Model}{}% 14
-\BOOKMARK [1][-]{section.3.1}{Formulating the model}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.1.1}{The Yukawa sector}{section.3.1}% 16
-\BOOKMARK [2][-]{subsection.3.1.2}{Numerical Results}{section.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.1.3}{Discussion of numerical results}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.4}{Conclusion}{section.3.1}% 19
-\BOOKMARK [0][-]{chapter.4}{3HDM}{}% 20
-\BOOKMARK [0][-]{chapter.5}{Future Work}{}% 21
-\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 22
-\BOOKMARK [1][-]{subsection.6.0.1}{Gamma Matrices}{chapter.6}% 23
-\BOOKMARK [2][-]{subsection.6.0.2}{Lagrangian Dynamics}{subsection.6.0.1}% 24
-\BOOKMARK [0][-]{section.6.1}{Bibliography}{}% 25
+\BOOKMARK [1][-]{section.2.4}{Fermion Masses in the SM and Quark mixing}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Physical parameters}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.5.1}{Charged Flavour Currents vs. Neutral Flavour Currents}{section.2.5}% 13
+\BOOKMARK [1][-]{section.2.6}{Quantum chromodynamics}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{B-L-SM Model}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Formulating the model}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Numerical Results}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{B-L-SM Conclusion}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{3HDM}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Pre-3HDM}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{BGL? Should I meantion it}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{Lagrangian Yukawa}{section.4.2}% 22
+\BOOKMARK [1][-]{section.4.3}{General Notes}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.3.1}{Basic}{section.4.3}% 24
+\BOOKMARK [1][-]{section.4.4}{Formulation of the 3HDM-BGL like model}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.4.1}{The scalar potential}{section.4.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.2}{The Yukawa sector}{section.4.4}% 27
+\BOOKMARK [2][-]{subsection.4.4.3}{The inverse procedure and the Quark masses}{section.4.4}% 28
+\BOOKMARK [1][-]{section.4.5}{Constraints on the Model}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.6}{Numerical Results}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.6.1}{Flavour results}{section.4.6}% 31
+\BOOKMARK [2][-]{subsection.4.6.2}{Conclusions}{section.4.6}% 32
+\BOOKMARK [1][-]{section.4.7}{Old}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Future Work}{}% 34
+\BOOKMARK [0][-]{chapter.6}{Appendix}{}% 35
+\BOOKMARK [1][-]{subsection.6.0.1}{Gamma Matrices}{chapter.6}% 36
+\BOOKMARK [2][-]{subsection.6.0.2}{Lagrangian Dynamics}{subsection.6.0.1}% 37
+\BOOKMARK [0][-]{section.6.1}{Bibliography}{}% 38

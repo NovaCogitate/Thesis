@@ -1,0 +1,125 @@
+%Article
+\documentclass[11pt]{article}
+
+%Standard thesis size
+\usepackage[a4paper,left=3cm,right=2.5cm,top=3cm,bottom=3cm,]{geometry}
+
+%To make [H] Work
+\usepackage{float}
+
+%Loading comment package 
+\usepackage{comment}
+
+% for fancy looking tables
+\usepackage{booktabs}   
+
+%This package slashes dirac operators 
+\usepackage{slashed}
+
+% Good old Checkmarks
+\usepackage{pifont}
+
+%Not sure
+\usepackage[english]{babel}
+
+% References I'd guess 
+\usepackage{hyperref} 
+%\usepackage{apacite} 
+
+%Mathematical expressions 
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Where are the images
+\usepackage{graphicx}
+\graphicspath{{./Images/}}
+
+% inputs 
+\usepackage[utf8]{inputenc}
+
+%Using Sub files
+%Perfect comment Pedro, cat --> this says cat
+\usepackage{subfiles}
+
+%images in here 
+\graphicspath{{./Images/}}
+
+%Horizontal line
+\usepackage{cancel}
+
+%tables 
+\usepackage{tabularx}
+
+%using a colored text 
+\usepackage{xcolor}
+
+\begin{document}
+
+\section{Motivation for the study of the SM}
+
+The properties of the new resonance observed at the LHC in 2012 [1, 2], discovery of the SM Higgs proposed by (for instance, see [3, 4]). 
+The particle spectrum predicted by the SM has now been fully confirmed. 
+
+% [1] ATLAS Collaboration, G. Aad et al., Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC, Phys. Lett. B716 (2012) 1–29, [arXiv:1207.7214].
+
+% [2] CMS Collaboration, S. Chatrchyan et al., Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC, Phys. Lett. B716 (2012) 30–61, [arXiv:1207.7235].
+
+% [3] ATLAS, CMS Collaboration, G. Aad et al., Combined Measurement of the Higgs Boson Mass in pp Collisions at s = 7 and 8 TeV with the ATLAS and CMS Experiments, Phys. Rev. Lett. 114(2015)191803, [arXiv:1503.07589].
+
+% [4] ATLAS, CMS Collaboration, G. Aad et al., Measurements of the Higgs boson production and decay rates and √ constraints on its couplings from a combined ATLAS and CMS analysis of the LHC pp collision data at s = 7 and 8 TeV, JHEP 08 (2016) 045, [arXiv:1606.02266].
+
+Questions left unanswered: 
+
+the smallness of neutrino masses, 
+the fermion mass hierarchy, 
+the colossal asymmetry between the quantity of matter and antimatter in the universe
+the nature of dark matter 
+
+They are usually taken as hints for the existence of new physics (NP) beyond the SM (BSM).
+
+Typical BSM scenarios that aim to fix one or more such shortcomings of the SM often end up extending the scalar sector of the SM. In these extensions, the 125 GeV scalar observed at the LHC is not the only scalar in the spectrum but the first one in a series of others to follow.
+
+This is an intriguing possibility which motivates us for a closer inspection of the properties of the observed scalar and inspires us to carry on our efforts to look for new resonances at the collider experiments.
+
+When it comes to extending the scalar sector of the SM, adding replicas of the SM Higgs-doublet is one of the simplest ways to do it. Such extensions do not alter the tree level value of the electroweak (EW) $\rho$-parameter. Two Higgs-doublet models (2HDMs), which add only one extra doublet to the SM Higgs sector, have received its fair share of attention through the years. They were proposed by T.D. Lee in 1973 [5] as a means to obtain a spontaneous breaking of the CP symmetry, and boast a rich phenomenology. 
+%
+Other than the possibility of spontaneous CP breaking, such models contain a richer particle spectrum, with a charged scalar and a total of three neutral ones, may feature dark matter candidates in certain scenarios, and generically give rise to the tree-level scalar-mediated flavour changing neutral currents (FCNCs).
+
+[% 5] T. D. Lee, A Theory of Spontaneous T Violation, Phys. Rev. D8 (1973) 1226–1239
+
+Indeed, one ominous outcome of adding extra scalar doublets is that the fermions of a particular charge will now receive their masses from
+multiple Yukawa matrices and consequently, diagonalization of their mass matrices will no longer guarantee the simultaneous diagonalization of the Yukawa matrices. Therefore, in general, there will exist FCNCs at tree-level mediated by neutral scalars.
+
+% But are FCNCs observed in reality. 
+
+Experimental data from the flavour sector {\color{red}– to wit}, neutral meson mass differences for Kaons and B-mesons, or $\epsilon_K$ data – strongly constrain such FCNCs, typically forcing the extra scalars to have masses above 1 TeV [6].
+%G. C. Branco, L. Lavoura, and J. P. Silva, CP Violation, vol. 103. 1999. 
+%
+An alternative is to fine-tune the FCNC interactions so that they are very small, though for some models cancellations between CP-even and CP-odd contributions to the amplitudes off the observables mentioned allow for below-TeV scalars with a minimal fine-tuning (see, for instance, [7–9]).
+%
+%
+%[7] P. Ferreira, L. Lavoura, J. P. Silva, and L. Lavoura, A Soft origin for CKM-type CP violation, Phys. Lett.B 704 (2011) 179–188, [arXiv:1102.0784].
+%[8] M. Nebot and J. P. Silva, Self-cancellation of a scalar in neutral meson mixing and implications for the LHC, Phys. Rev. D 92 (2015), no. 8 085010, [arXiv:1507.07941].
+%[9] P. Ferreira and L. Lavoura, No strong CP violation up to the one-loop level in a two-Higgs-doublet model,Eur. Phys. J. C 79 (2019), no. 7 552, [arXiv:1904.08438].
+
+Another possibility is to assume alignment between different Yukawa matrices [10–12], though that is an ansatz which is not preserved
+under renormalization [13].
+%
+%
+%
+
+There is yet another possibility, however: the BGL (Branco-Grimus-Lavoura)
+model [14,15] is a remarkable version of the 2HDM wherein FCNC interactions are naturally small – this results
+from the imposition of a flavour-violating symmetry, i.e. a symmetry which treats some generations of fermions
+differently from others.
+%
+As a consequence of this symmetry, FCNC couplings are suppressed by off-diagonal
+Cabibbo-Kobayashi-Maskawa (CKM) matrix elements. The phenomenology of the model has been studied quite
+thoroughly (see, for instance, [16, 17]) and it remains a valid and exciting possibility for BSM physics.
+
+
+\section{Motivation for the BLSM}
+
+\section{Motivation for the 3HDM}
+
+\end{document}
