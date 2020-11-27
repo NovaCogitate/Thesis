@@ -1,52 +1,6 @@
 \babel@toc {english}{}
 \contentsline {chapter}{Contents}{i}{section.0.1}%
-\contentsline {chapter}{List of Figures}{iii}{section.0.2}%
-\contentsline {chapter}{List of Tables}{v}{section.0.3}%
+\contentsline {chapter}{List of Figures}{ii}{section.0.2}%
+\contentsline {chapter}{List of Tables}{iii}{section.0.3}%
 \contentsline {section}{\numberline {0.4}Labels}{1}{section.0.4}%
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}The Standard Model of Particle Physics}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Motivation}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Internal symmetry of the Standard Model}{6}{section.2.2}%
-\contentsline {subsubsection}{Gauge Group numbers}{6}{equation.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.1}Fields, Particles and Lagrangian of the SM}{7}{subsection.2.2.1}%
-\contentsline {subsubsection}{Lagrangian formulation }{8}{table.2.3}%
-\contentsline {section}{\numberline {2.3}The Higgs mechanism and the mass generation of the Gauge bosons}{9}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Fermion Masses in the SM and Quark mixing}{11}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Physical parameters}{14}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Charged Flavour Currents vs. Neutral Flavour Currents}{14}{subsection.2.5.1}%
-\contentsline {subsubsection}{Flavour as a Probe into New Physics}{15}{figure.2.3}%
-\contentsline {subsubsection}{The Future of Flavour Indirect Searches}{17}{equation.2.5.35}%
-\contentsline {section}{\numberline {2.6}Quantum chromodynamics}{17}{section.2.6}%
-\contentsline {chapter}{\numberline {3}B-L-SM Model}{18}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Formulating the model}{19}{section.3.1}%
-\contentsline {subsubsection}{Scalar sector}{20}{table.3.1}%
-\contentsline {subsubsection}{Gauge Sector}{22}{equation.3.1.12}%
-\contentsline {subsubsection}{The Yukawa sector}{24}{equation.3.1.26}%
-\contentsline {section}{\numberline {3.2}Numerical Results}{25}{section.3.2}%
-\contentsline {subsubsection}{Scanning tools and parameter space bounds}{25}{section.3.2}%
-\contentsline {subsubsection}{Parameter Space}{26}{table.3.3}%
-\contentsline {subsubsection}{Discussion of numerical results}{28}{figure.3.1}%
-\contentsline {subsubsection}{Implications of direct $Z^\prime $ searches at the LHC for the $\left (g-2\right )_\mu $ anomaly}{29}{table.3.4}%
-\contentsline {subsubsection}{Barr-Zee type contributions}{33}{equation.3.2.39}%
-\contentsline {section}{\numberline {3.3}B-L-SM Conclusion}{35}{section.3.3}%
-\contentsline {chapter}{\numberline {4}3HDM}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Pre-3HDM}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}BGL? Should I meantion it}{36}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Lagrangian Yukawa}{37}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}General Notes}{39}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Basic}{39}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Formulation of the 3HDM-BGL like model}{39}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}The scalar potential}{39}{subsection.4.4.1}%
-\contentsline {subsubsection}{The CP-odd scalar sector}{41}{equation.4.4.18}%
-\contentsline {subsubsection}{The CP-even or charged scalar sector}{41}{equation.4.4.18}%
-\contentsline {subsection}{\numberline {4.4.2}The Yukawa sector}{41}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}The inverse procedure and the Quark masses}{41}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Constraints on the Model}{41}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Numerical Results}{41}{section.4.6}%
-\contentsline {subsubsection}{Higgs Plots}{41}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Flavour results}{42}{subsection.4.6.1}%
-\contentsline {subsubsection}{Fine-Tuning}{44}{figure.4.5}%
-\contentsline {subsection}{\numberline {4.6.2}Conclusions}{44}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Old}{44}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Future Work}{45}{chapter.5}%
-\contentsline {chapter}{Bibliography}{47}{section.6.1}%
+\contentsline {chapter}{Bibliography}{2}{section.0.5}%
