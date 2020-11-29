@@ -10,47 +10,48 @@ A level-1 auxiliary file: Appendix.aux
 The style file: ieeetr.bst
 Database file #1: bib.bib
 Database file #2: bib_2.bib
+Database file #3: bib_3.bib
 Warning--empty journal in Staub:2008uz
 Warning--empty publisher in Branco:1999fs
-You've used 69 entries,
+You've used 81 entries,
             1876 wiz_defined-function locations,
-            933 strings with 19627 characters,
-and the built_in function-call counts, 21791 in all, are:
-= -- 1899
-> -- 1414
+            1006 strings with 21489 characters,
+and the built_in function-call counts, 24412 in all, are:
+= -- 2150
+> -- 1541
 < -- 0
-+ -- 499
-- -- 430
-* -- 1696
-:= -- 3302
-add.period$ -- 75
-call.type$ -- 69
-change.case$ -- 68
++ -- 546
+- -- 465
+* -- 1889
+:= -- 3690
+add.period$ -- 87
+call.type$ -- 81
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 71
-duplicate$ -- 1089
-empty$ -- 1641
-format.name$ -- 430
-if$ -- 5193
+cite$ -- 83
+duplicate$ -- 1247
+empty$ -- 1856
+format.name$ -- 465
+if$ -- 5825
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 69
-newline$ -- 216
-num.names$ -- 69
-pop$ -- 163
+int.to.str$ -- 81
+missing$ -- 81
+newline$ -- 252
+num.names$ -- 81
+pop$ -- 187
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 867
+skip$ -- 987
 stack$ -- 0
-substring$ -- 984
-swap$ -- 555
+substring$ -- 1046
+swap$ -- 629
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 153
-width$ -- 71
-write$ -- 696
+while$ -- 169
+width$ -- 83
+write$ -- 808
 (There were 2 warnings)
