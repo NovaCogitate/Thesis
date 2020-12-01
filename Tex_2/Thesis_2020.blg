@@ -13,45 +13,45 @@ Database file #2: bib_2.bib
 Database file #3: bib_3.bib
 Warning--empty journal in Staub:2008uz
 Warning--empty publisher in Branco:1999fs
-You've used 81 entries,
+You've used 85 entries,
             1876 wiz_defined-function locations,
-            1006 strings with 21489 characters,
-and the built_in function-call counts, 24412 in all, are:
-= -- 2150
-> -- 1541
+            1029 strings with 22535 characters,
+and the built_in function-call counts, 25449 in all, are:
+= -- 2226
+> -- 1634
 < -- 0
-+ -- 546
-- -- 465
-* -- 1889
-:= -- 3690
-add.period$ -- 87
-call.type$ -- 81
-change.case$ -- 80
++ -- 578
+- -- 493
+* -- 1993
+:= -- 3869
+add.period$ -- 91
+call.type$ -- 85
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 83
-duplicate$ -- 1247
-empty$ -- 1856
-format.name$ -- 465
-if$ -- 5825
+cite$ -- 87
+duplicate$ -- 1287
+empty$ -- 1929
+format.name$ -- 493
+if$ -- 6048
 int.to.chr$ -- 0
-int.to.str$ -- 81
-missing$ -- 81
-newline$ -- 252
-num.names$ -- 81
-pop$ -- 187
+int.to.str$ -- 85
+missing$ -- 85
+newline$ -- 264
+num.names$ -- 85
+pop$ -- 195
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 987
+skip$ -- 1009
 stack$ -- 0
-substring$ -- 1046
-swap$ -- 629
+substring$ -- 1078
+swap$ -- 641
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 169
-width$ -- 83
-write$ -- 808
+while$ -- 176
+width$ -- 87
+write$ -- 844
 (There were 2 warnings)

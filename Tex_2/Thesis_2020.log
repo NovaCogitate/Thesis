@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.9)  29 NOV 2020 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.9)  1 DEC 2020 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<./Images/uaLogoNew.pdf, id=209, 60.225pt x 75.28125pt>
+<./Images/uaLogoNew.pdf, id=164, 60.225pt x 75.28125pt>
 File: ./Images/uaLogoNew.pdf Graphic file (type pdf)
 <use ./Images/uaLogoNew.pdf>
 Package pdftex.def Info: ./Images/uaLogoNew.pdf  used on input line 113.
@@ -690,7 +690,7 @@ Chapter 2.
 
 
 ] [6] [7] [8] [9] [10] (./Yukawa.tex [11] [12]
-<./Images/Glashow-Illiopoulos-Maiani_mechanism_fig1.png, id=571, 429.605pt x 18
+<./Images/Glashow-Illiopoulos-Maiani_mechanism_fig1.png, id=516, 429.605pt x 18
 8.705pt>
 File: ./Images/Glashow-Illiopoulos-Maiani_mechanism_fig1.png Graphic file (type
  png)
@@ -702,7 +702,7 @@ Package pdftex.def Info: ./Images/Glashow-Illiopoulos-Maiani_mechanism_fig1.png
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images/TestYukawaCouplings.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Images/TestYukawaCouplings.pdf, id=573, 842.17867pt x 219.72412pt>
+<./Images/TestYukawaCouplings.pdf, id=518, 842.17867pt x 219.72412pt>
 File: ./Images/TestYukawaCouplings.pdf Graphic file (type pdf)
 <use ./Images/TestYukawaCouplings.pdf>
 Package pdftex.def Info: ./Images/TestYukawaCouplings.pdf  used on input line 1
@@ -717,25 +717,25 @@ Overfull \hbox (8.2542pt too wide) in paragraph at lines 369--374
 LaTeX Warning: Reference `LagFermFCCCs' on page 14 undefined on input line 380.
 
 
-<./Images/Stolen.png, id=582, 1310.8975pt x 525.965pt>
+<./Images/Stolen.png, id=527, 1310.8975pt x 525.965pt>
 File: ./Images/Stolen.png Graphic file (type png)
 <use ./Images/Stolen.png>
 Package pdftex.def Info: ./Images/Stolen.png  used on input line 384.
 (pdftex.def)             Requested size: 345.54092pt x 138.6417pt.
 [14 <./Images/TestYukawaCouplings.pdf>]
-<./Images/My_First_Diagram.png, id=593, 529.98pt x 527.9725pt>
+<./Images/My_First_Diagram.png, id=537, 529.98pt x 527.9725pt>
 File: ./Images/My_First_Diagram.png Graphic file (type png)
 <use ./Images/My_First_Diagram.png>
 Package pdftex.def Info: ./Images/My_First_Diagram.png  used on input line 419.
 
 (pdftex.def)             Requested size: 89.8407pt x 89.49634pt.
  [15 <./Images/stolen.png>]
-<./Images/Stolen_2.png, id=602, 1567.8575pt x 545.03625pt>
+<./Images/Stolen_2.png, id=546, 1567.8575pt x 545.03625pt>
 File: ./Images/Stolen_2.png Graphic file (type png)
 <use ./Images/Stolen_2.png>
 Package pdftex.def Info: ./Images/Stolen_2.png  used on input line 438.
 (pdftex.def)             Requested size: 345.54092pt x 120.11626pt.
-<./Images/Stolen_3.png, id=605, 1308.89pt x 290.08376pt>
+<./Images/Stolen_3.png, id=549, 1308.89pt x 290.08376pt>
 File: ./Images/Stolen_3.png Graphic file (type png)
 <use ./Images/Stolen_3.png>
 Package pdftex.def Info: ./Images/Stolen_3.png  used on input line 450.
@@ -752,24 +752,24 @@ e-quired to cal-cu-late $\OML/cmm/m/it/12 ^^[ [] \OMS/cmsy/m/n/12 ^^B \OML/cmm/
 m/it/12 B []$\OT1/cmr/m/n/12 ,
  []
 
-<./Images//BLSM/ST.pdf, id=800, 421.18047pt x 283.60121pt>
+<./Images//BLSM/ST.pdf, id=745, 421.18047pt x 283.60121pt>
 File: ./Images//BLSM/ST.pdf Graphic file (type pdf)
 <use ./Images//BLSM/ST.pdf>
 Package pdftex.def Info: ./Images//BLSM/ST.pdf  used on input line 505.
 (pdftex.def)             Requested size: 189.52945pt x 127.61935pt.
-<./Images//BLSM/TU.pdf, id=801, 423.13898pt x 283.60121pt>
+<./Images//BLSM/TU.pdf, id=746, 423.13898pt x 283.60121pt>
 File: ./Images//BLSM/TU.pdf Graphic file (type pdf)
 <use ./Images//BLSM/TU.pdf>
 Package pdftex.def Info: ./Images//BLSM/TU.pdf  used on input line 506.
 (pdftex.def)             Requested size: 190.41077pt x 127.61935pt.
 [27]
-<./Images//BLSM/mZp_Xsec_Amu.pdf, id=808, 556.50446pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_Amu.pdf, id=753, 556.50446pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_Amu.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_Amu.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_Amu.pdf  used on input line 53
 5.
 (pdftex.def)             Requested size: 205.90343pt x 139.17625pt.
-<./Images//BLSM/mZp_Mhp_Amu.pdf, id=809, 542.9722pt x 354.42827pt>
+<./Images//BLSM/mZp_Mhp_Amu.pdf, id=754, 542.9722pt x 354.42827pt>
 File: ./Images//BLSM/mZp_Mhp_Amu.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Mhp_Amu.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Mhp_Amu.pdf  used on input line 536
@@ -789,24 +789,24 @@ Overfull \hbox (3.20036pt too wide) in paragraph at lines 548--565
 pdfTeX warning: /usr/bin/pdflatex (file ./Images//BLSM/mZp_Mhp_Amu.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<./Images//BLSM/g-2.pdf, id=965, 318.18875pt x 175.65625pt>
+<./Images//BLSM/g-2.pdf, id=910, 318.18875pt x 175.65625pt>
 File: ./Images//BLSM/g-2.pdf Graphic file (type pdf)
 <use ./Images//BLSM/g-2.pdf>
 Package pdftex.def Info: ./Images//BLSM/g-2.pdf  used on input line 578.
 (pdftex.def)             Requested size: 238.64096pt x 131.74185pt.
-<./Images//BLSM/mZp_Xsec_mh2.pdf, id=970, 520.10815pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_mh2.pdf, id=915, 520.10815pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_mh2.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_mh2.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_mh2.pdf  used on input line 58
 7.
 (pdftex.def)             Requested size: 192.437pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_VEV.pdf, id=971, 558.69188pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_VEV.pdf, id=916, 558.69188pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_VEV.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_VEV.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_VEV.pdf  used on input line 58
 8.
 (pdftex.def)             Requested size: 206.71275pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_alpha.pdf, id=972, 567.25714pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_alpha.pdf, id=917, 567.25714pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_alpha.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_alpha.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_alpha.pdf  used on input line 
@@ -822,44 +822,44 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./Images//BLSM/mZp_Xsec_alpha.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-<./Images//BLSM/mZp_Xsec_gYB.pdf, id=1127, 537.52657pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_gYB.pdf, id=1072, 537.52657pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_gYB.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_gYB.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_gYB.pdf  used on input line 62
 5.
 (pdftex.def)             Requested size: 198.8817pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_twp.pdf, id=1128, 569.83868pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_twp.pdf, id=1073, 569.83868pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_twp.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_twp.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_twp.pdf  used on input line 62
 6.
 (pdftex.def)             Requested size: 210.837pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_gBL.pdf, id=1129, 555.7917pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_gBL.pdf, id=1074, 555.7917pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_gBL.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_gBL.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_gBL.pdf  used on input line 62
 7.
 (pdftex.def)             Requested size: 205.63971pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_gLmumuZ.pdf, id=1145, 561.94359pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_gLmumuZ.pdf, id=1090, 561.94359pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_gLmumuZ.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_gLmumuZ.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_gLmumuZ.pdf  used on input lin
 e 647.
 (pdftex.def)             Requested size: 207.91586pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_gRmumuZ.pdf, id=1146, 561.94359pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_gRmumuZ.pdf, id=1091, 561.94359pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_gRmumuZ.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_gRmumuZ.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_gRmumuZ.pdf  used on input lin
 e 648.
 (pdftex.def)             Requested size: 207.91586pt x 139.17625pt.
-<./Images//BLSM/mZp_Xsec_gWWZp.pdf, id=1147, 542.53276pt x 376.15797pt>
+<./Images//BLSM/mZp_Xsec_gWWZp.pdf, id=1092, 542.53276pt x 376.15797pt>
 File: ./Images//BLSM/mZp_Xsec_gWWZp.pdf Graphic file (type pdf)
 <use ./Images//BLSM/mZp_Xsec_gWWZp.pdf>
 Package pdftex.def Info: ./Images//BLSM/mZp_Xsec_gWWZp.pdf  used on input line 
 649.
 (pdftex.def)             Requested size: 200.73398pt x 139.17625pt.
  [32]
-<./Images//BLSM/Barr-Zee.pdf, id=1165, 417.56pt x 436.63126pt>
+<./Images//BLSM/Barr-Zee.pdf, id=1109, 417.56pt x 436.63126pt>
 File: ./Images//BLSM/Barr-Zee.pdf Graphic file (type pdf)
 <use ./Images//BLSM/Barr-Zee.pdf>
 Package pdftex.def Info: ./Images//BLSM/Barr-Zee.pdf  used on input line 668.
@@ -886,109 +886,90 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Images//BLSM/mZp_Xsec_gWWZp.pdf): PDF
 
  (./3HDM.tex [36]
 Chapter 4.
-[37] [38] Excluding 'comment' comment. [39]
-
-LaTeX Warning: Reference `eq:3HDM_Tadpoles' on page 40 undefined on input line 
-223.
-
-[40] [41]
-Overfull \hbox (15.99075pt too wide) detected at line 327
-[]
+[37] [38] Excluding 'comment' comment. [39] [40] Excluding 'comment' comment.
+[41] [42] Excluding 'comment' comment. Excluding 'comment' comment. [43]
+[44] Excluding 'comment' comment. [45]
+Overfull \hbox (1.75061pt too wide) in paragraph at lines 736--736
+|[]\OT1/cmr/bx/n/17.28 The BGL-like sup-pres-sion of FC-NCs in the 3HDM
  []
 
-[42] [43]
-Chapter 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 487.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 487.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 487.
-
-[44] [45] [46] [47] [48] [49]
-<./Images//3HDM/H1_H2.pdf, id=1612, 529.31865pt x 392.19446pt>
+[46] [47] Excluding 'comment' comment.
+<./Images//3HDM/H1_H2.pdf, id=1551, 529.31865pt x 392.19446pt>
 File: ./Images//3HDM/H1_H2.pdf Graphic file (type pdf)
 <use ./Images//3HDM/H1_H2.pdf>
-Package pdftex.def Info: ./Images//3HDM/H1_H2.pdf  used on input line 693.
+Package pdftex.def Info: ./Images//3HDM/H1_H2.pdf  used on input line 1023.
 (pdftex.def)             Requested size: 225.75594pt x 167.2699pt.
-<./Images//3HDM/H1_A1.pdf, id=1613, 540.20747pt x 396.7158pt>
+<./Images//3HDM/H1_A1.pdf, id=1552, 540.20747pt x 396.7158pt>
 File: ./Images//3HDM/H1_A1.pdf Graphic file (type pdf)
 <use ./Images//3HDM/H1_A1.pdf>
-Package pdftex.def Info: ./Images//3HDM/H1_A1.pdf  used on input line 694.
+Package pdftex.def Info: ./Images//3HDM/H1_A1.pdf  used on input line 1024.
 (pdftex.def)             Requested size: 225.75594pt x 165.79018pt.
-<./Images//3HDM/A1_A2.pdf, id=1614, 518.84998pt x 393.30345pt>
+ [48]
+<./Images//3HDM/A1_A2.pdf, id=1564, 518.84998pt x 393.30345pt>
 File: ./Images//3HDM/A1_A2.pdf Graphic file (type pdf)
 <use ./Images//3HDM/A1_A2.pdf>
-Package pdftex.def Info: ./Images//3HDM/A1_A2.pdf  used on input line 702.
+Package pdftex.def Info: ./Images//3HDM/A1_A2.pdf  used on input line 1032.
 (pdftex.def)             Requested size: 225.75594pt x 171.12762pt.
-<./Images//3HDM/Hc1_Hc2.pdf, id=1615, 532.63126pt x 394.68686pt>
+<./Images//3HDM/Hc1_Hc2.pdf, id=1565, 532.63126pt x 394.68686pt>
 File: ./Images//3HDM/Hc1_Hc2.pdf Graphic file (type pdf)
 <use ./Images//3HDM/Hc1_Hc2.pdf>
-Package pdftex.def Info: ./Images//3HDM/Hc1_Hc2.pdf  used on input line 703.
+Package pdftex.def Info: ./Images//3HDM/Hc1_Hc2.pdf  used on input line 1033.
 (pdftex.def)             Requested size: 225.75594pt x 167.28499pt.
- [50 <./Images//3HDM/H1_H2.pdf> <./Images//3HDM/H1_A1.pdf
+<./Images//3HDM/XsGamma_H1.pdf, id=1566, 549.75487pt x 397.6838pt>
+File: ./Images//3HDM/XsGamma_H1.pdf Graphic file (type pdf)
+<use ./Images//3HDM/XsGamma_H1.pdf>
+Package pdftex.def Info: ./Images//3HDM/XsGamma_H1.pdf  used on input line 1044
+.
+(pdftex.def)             Requested size: 225.75594pt x 163.30627pt.
+<./Images//3HDM/Eps_K_H1.pdf, id=1567, 532.07726pt x 390.73936pt>
+File: ./Images//3HDM/Eps_K_H1.pdf Graphic file (type pdf)
+<use ./Images//3HDM/Eps_K_H1.pdf>
+Package pdftex.def Info: ./Images//3HDM/Eps_K_H1.pdf  used on input line 1045.
+(pdftex.def)             Requested size: 225.75594pt x 165.79074pt.
+ [49 <./Images//3HDM/H1_H2.pdf> <./Images//3HDM/H1_A1.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/H1_A1.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->]
-<./Images//3HDM/XsGamma_H1.pdf, id=1691, 549.75487pt x 397.6838pt>
-File: ./Images//3HDM/XsGamma_H1.pdf Graphic file (type pdf)
-<use ./Images//3HDM/XsGamma_H1.pdf>
-Package pdftex.def Info: ./Images//3HDM/XsGamma_H1.pdf  used on input line 714.
+> <./Images//3HDM/A1_A2.pdf
 
-(pdftex.def)             Requested size: 225.75594pt x 163.30627pt.
-<./Images//3HDM/Eps_K_H1.pdf, id=1692, 532.07726pt x 390.73936pt>
-File: ./Images//3HDM/Eps_K_H1.pdf Graphic file (type pdf)
-<use ./Images//3HDM/Eps_K_H1.pdf>
-Package pdftex.def Info: ./Images//3HDM/Eps_K_H1.pdf  used on input line 715.
-(pdftex.def)             Requested size: 225.75594pt x 165.79074pt.
-<./Images//3HDM/Xsgamma_Hc1_A1.pdf, id=1693, 544.71173pt x 401.046pt>
-File: ./Images//3HDM/Xsgamma_Hc1_A1.pdf Graphic file (type pdf)
-<use ./Images//3HDM/Xsgamma_Hc1_A1.pdf>
-Package pdftex.def Info: ./Images//3HDM/Xsgamma_Hc1_A1.pdf  used on input line 
-724.
-(pdftex.def)             Requested size: 345.54092pt x 254.41048pt.
- [51 <./Images//3HDM/A1_A2.pdf> <./Images//3HDM/Hc1_Hc2.pdf
+pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/A1_A2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./Images//3HDM/Hc1_Hc2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/Hc1_Hc2.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
-> <./Images//3HDM/XsGamma_H1.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/XsGamma_H1.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <./Images//3HDM/Eps_K_H1.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/Eps_K_H1.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
 >]
-<./Images//3HDM/Eps_K_Hc1_Thighter_Centered.pdf, id=1855, 568.31976pt x 401.046
+<./Images//3HDM/Xsgamma_Hc1_A1.pdf, id=1713, 544.71173pt x 401.046pt>
+File: ./Images//3HDM/Xsgamma_Hc1_A1.pdf Graphic file (type pdf)
+<use ./Images//3HDM/Xsgamma_Hc1_A1.pdf>
+Package pdftex.def Info: ./Images//3HDM/Xsgamma_Hc1_A1.pdf  used on input line 
+1054.
+(pdftex.def)             Requested size: 345.54092pt x 254.41048pt.
+<./Images//3HDM/Eps_K_Hc1_Thighter_Centered.pdf, id=1714, 568.31976pt x 401.046
 pt>
 File: ./Images//3HDM/Eps_K_Hc1_Thighter_Centered.pdf Graphic file (type pdf)
 <use ./Images//3HDM/Eps_K_Hc1_Thighter_Centered.pdf>
 Package pdftex.def Info: ./Images//3HDM/Eps_K_Hc1_Thighter_Centered.pdf  used o
-n input line 731.
+n input line 1061.
 (pdftex.def)             Requested size: 345.54092pt x 243.83604pt.
- [52 <./Images//3HDM/Xsgamma_Hc1_A1.pdf> <./Images//3HDM/Eps_K_Hc1_Thighter_Cen
-tered.pdf
+ [50 <./Images//3HDM/XsGamma_H1.pdf> <./Images//3HDM/Eps_K_H1.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/Eps_K_Hc1_Thighter_Cente
-red.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
+pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/Eps_K_H1.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./Images//3HDM/Xsgamma_Hc1_A1.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Images//3HDM/Xsgamma_Hc1_A1.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
 >])
 \openout2 = `Conclusions.aux'.
 
- (./Conclusions.tex [53]
-Chapter 6.
+ (./Conclusions.tex [51 <./Images//3HDM/Eps_K_Hc1_Thighter_Centered.pdf>]
+Chapter 5.
 )
 \openout2 = `Appendix.aux'.
 
- (./Appendix.tex [54]
-Chapter 7.
+ (./Appendix.tex [52]
+Chapter 6.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 7.
@@ -1002,30 +983,30 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 205.
 
-[55
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Appendix}{55}{chapter.7
+[53
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Appendix}{53}{chapter.6
 }\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.1}Gamma Matrices}{
-55}{subsection.7.0.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.2}Lagrangian Dynam
-ics}{55}{subsection.7.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.0.1}Gamma Matrices}{
+53}{subsection.6.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.0.2}Lagrangian Dynam
+ics}{53}{subsection.6.0.2}\protected@file@percent }
 ]
 Overfull \hbox (3.44275pt too wide) detected at line 260
 [][]
  []
 
-[56] (./Thesis_2020.bbl [57] [58] [59] [60] [61] [62])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
- (./Thesis_2020.aux
-(./Introduction.aux) (./The_Standard_Model.aux) (./BLSM.aux) (./3HDM.aux)
-(./Conclusions.aux) (./Appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+[54] [55] (./Thesis_2020.bbl [56] [57] [58] [59] [60] [61] [62])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+
+(./Thesis_2020.aux (./Introduction.aux) (./The_Standard_Model.aux) (./BLSM.aux)
+(./3HDM.aux) (./Conclusions.aux) (./Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `Thesis_2020.out' has not changed.
-(rerunfilecheck)             Checksum: 2615A00BA2F07DBE957EC9333B1E08E9;3485.
+(rerunfilecheck)             Checksum: 3CC7FDF30285AE5364DCC66B3D9AC118;2767.
 
 
 LaTeX Warning: There were undefined references.
@@ -1033,7 +1014,7 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  )
 (\end occurred inside a group at level 3)
 
@@ -1042,45 +1023,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
 ### simple group (level 1) entered at line 185 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9892 strings out of 481239
- 144299 string characters out of 5920378
- 451534 words of memory out of 5000000
- 24474 multiletter control sequences out of 15000+600000
+ 9877 strings out of 481239
+ 144096 string characters out of 5920378
+ 451798 words of memory out of 5000000
+ 24468 multiletter control sequences out of 15000+600000
  547183 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,23n,38p,2472b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.lee1973theory} has been refere
-nced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ginzburg_2005} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ivanov_2015} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ivanov2007} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ivanov_2008} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Barroso_2006} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Barroso_2007} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ferreira_2004} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Branco_2012} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Aranda_2017} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ivanov_2016} has been referenced but does not 
-exist, replaced by a fixed one
+ 35i,20n,37p,2472b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.Aad_2015} has been referenced 
+but does not exist, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
@@ -1105,10 +1056,10 @@ tt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
 m10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Thesis_2020.pdf (77 pages, 6426397 bytes).
+Output written on Thesis_2020.pdf (77 pages, 6428168 bytes).
 PDF statistics:
- 2162 PDF objects out of 2487 (max. 8388607)
- 1771 compressed objects within 18 object streams
- 372 named destinations out of 1000 (max. 500000)
- 559 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2115 PDF objects out of 2487 (max. 8388607)
+ 1724 compressed objects within 18 object streams
+ 363 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
 

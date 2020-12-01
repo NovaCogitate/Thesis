@@ -411,8 +411,33 @@ I.~F. Ginzburg and I.~P. Ivanov, ``Tree-level unitarity constraints in the most
   general two higgs doublet model,'' {\em Physical Review D}, vol.~72, Dec
   2005.
 
-\bibitem{lee1973theory}
-T.~Lee, ``A theory of spontaneous t violation,'' {\em Physical Review D},
-  vol.~8, no.~4, p.~1226, 1973.
+\bibitem{Moretti_2015}
+S.~Moretti and K.~Yagyu, ``Constraints on parameter space from perturbative
+  unitarity in models with three scalar doublets,'' {\em Physical Review D},
+  vol.~91, Mar 2015.
+
+\bibitem{Lee1977}
+B.~W. Lee, C.~Quigg, and H.~B. Thacker, ``Strength of weak interactions at very
+  high energies and the higgs boson mass,'' {\em Physical Review Letters},
+  vol.~38, pp.~883--885, Apr. 1977.
+
+\bibitem{Lee:1977eg}
+B.~W. Lee, C.~Quigg, and H.~B. Thacker, ``{Weak Interactions at Very
+  High-Energies: The Role of the Higgs Boson Mass},'' {\em Phys. Rev.},
+  vol.~D16, p.~1519, 1977.
+
+\bibitem{Aad_2016}
+G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, R.~Aben, O.~S.
+  AbouZeid, N.~L. Abraham, H.~Abramowicz, and et~al., ``Measurements of the
+  higgs boson production and decay rates and constraints on its couplings from
+  a combined atlas and cms analysis of the lhc pp collision data at s=7 $$
+  \sqrt{s}=7 $$ and 8 tev,'' {\em Journal of High Energy Physics}, vol.~2016,
+  Aug 2016.
+
+\bibitem{Aad_2015}
+G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, R.~Aben, M.~Abolins, O.~AbouZeid,
+  H.~Abramowicz, H.~Abreu, R.~Abreu, and et~al., ``Combined measurement of the
+  higgs boson mass inppcollisions ats=7and 8 tev with the atlas and cms
+  experiments,'' {\em Physical Review Letters}, vol.~114, May 2015.
 
 \end{thebibliography}
