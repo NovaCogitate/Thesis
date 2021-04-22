@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thesis_2020.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: The_Standard_Model.aux
+A level-1 auxiliary file: BLSM.aux
+A level-1 auxiliary file: 3HDM.aux
+A level-1 auxiliary file: Conclusions.aux
+A level-1 auxiliary file: Appendix.aux
+The style file: ieeetr.bst
+Database file #1: bib.bib.bib
+Database file #2: bib_2.bib.bib
+Database file #3: bib_3.bib.bib
+Warning--I didn't find a database entry for "Tanabashi2018"
+Warning--empty journal in Staub:2008uz
+Warning--empty publisher in Branco:1999fs
+You've used 80 entries,
+            1876 wiz_defined-function locations,
+            1006 strings with 16627 characters,
+and the built_in function-call counts, 21272 in all, are:
+= -- 2145
+> -- 830
+< -- 0
++ -- 309
+- -- 229
+* -- 1399
+:= -- 2960
+add.period$ -- 87
+call.type$ -- 80
+change.case$ -- 79
+chr.to.int$ -- 0
+cite$ -- 82
+duplicate$ -- 1230
+empty$ -- 1853
+format.name$ -- 229
+if$ -- 5340
+int.to.chr$ -- 0
+int.to.str$ -- 80
+missing$ -- 78
+newline$ -- 250
+num.names$ -- 80
+pop$ -- 194
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 991
+stack$ -- 0
+substring$ -- 1070
+swap$ -- 626
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 170
+width$ -- 82
+write$ -- 796
+(There were 3 warnings)

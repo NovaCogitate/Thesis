@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis_2020.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: The_Standard_Model.aux
+A level-1 auxiliary file: BLSM.aux
+A level-1 auxiliary file: 3HDM.aux
+A level-1 auxiliary file: Conclusions.aux
+A level-1 auxiliary file: Appendix.aux
+The style file: ieeetr.bst
+Database file #1: bib.bib
+Database file #2: bib_2.bib
+Database file #3: bib_3.bib
+Warning--empty journal in Staub:2008uz
+Warning--empty publisher in Branco:1999fs
+You've used 81 entries,
+            1876 wiz_defined-function locations,
+            1009 strings with 21487 characters,
+and the built_in function-call counts, 24400 in all, are:
+= -- 2158
+> -- 1525
+< -- 0
++ -- 541
+- -- 460
+* -- 1871
+:= -- 3673
+add.period$ -- 88
+call.type$ -- 81
+change.case$ -- 80
+chr.to.int$ -- 0
+cite$ -- 83
+duplicate$ -- 1238
+empty$ -- 1868
+format.name$ -- 460
+if$ -- 5832
+int.to.chr$ -- 0
+int.to.str$ -- 81
+missing$ -- 79
+newline$ -- 253
+num.names$ -- 81
+pop$ -- 196
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 993
+stack$ -- 0
+substring$ -- 1070
+swap$ -- 627
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 171
+width$ -- 83
+write$ -- 805
+(There were 2 warnings)

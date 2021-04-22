@@ -1,0 +1,485 @@
+
+\chapter{The Standard Model of Particle Physics}\label{chapter:StandardModel}
+%\section{The Standard Model of Particle Physics}
+%
+%To pave the way for our future studies we present the SM. Complete with a overview of it's mechanisms and a brief historical introduction.
+%
+
+\Joao{Não é necessário fazer uma secção só para isto. Comentei section{Motivation}}
+%\section{Motivation}
+
+% { \color{red} Note! The motivation should explain why we are going indepth into flavour, and the Yukawa sector. There has to be a purpose to this section! } 
+
+\Joaorep{Has}{As} stated \Joaoadd{in Chapter.~\ref{chapter:Introduction}}, it is hard to question the validity of the SM as a successful, at least approximate, framework with whom to describe the phenomenology of Particle Physics up to the largest energy scales probed by collider measurements so far\Joaoadd{. A}lthough\Joaoadd{,} some inconsistencies remain and must be addressed.  
+%
+The SM was proposed in the nineteen sixties by Glashow, Salam and Weinberg \Joao{Não é bem verdade, o SM é um conjunto de várias teorias (QCD + Higgs sector + Electrofraca). O que estes autores introduziram foi a teoria electrofraca. Acho que fica bem aqui por a referência dos papers deles.} and since \Joaoadd{then} it has been extensively tested. Both in contemporary direct searches for new physics and indirect probes via e.g. flavour anomalies and precise electroweak parameter measurements in proton-electron collisions. \Joao{Refs.} %, { \color{gray} and as said, it's been consistent with most to date.} 
+
+The path to the formulation of the SM came from previous principles \Joaorep{relating}{related} to symmetries in nature, specifically symmetry in physical laws. 
+%
+In fact, much \Joaorep{in}{of} modern physics can be attributed to Emmy Noether's work. She deduced, trough her first theorem, that if the action in a system is invariant under some group of transformations (symmetry), then there exist one or more conserved quantities (constants of motion).\Joao{Ref.} \Joaoout{which are associated to these transformations.}
+
+Physicist\Joaoadd{s} took this idea and were led to the fundamental question behind the SM, is it possible that upon imposing to a given Lagrangian the invariance under a certain group of symmetries to reach a given form for \Joaorep{it's}{its} the dynamics? 
+%
+These dynamics would be in our context, particle interactions. This train of thought first led to Quantum Electrodynamics (QED), then Quantum Chromodynamics (QCD) and finally the SM.  \Joao{Esta frase tem que ser reescrita. Eu sei o que queres disser, mas está um pouco confuso e difícil de ler. Também estás a combinar dinâmica e interacções, que são coisas distintas. Dinâmica corresponde a como os campos evoluem no espaço-tempo.}
+%
+We can quote Salam and Ward: % A. Salam and J. C. Ward, Nuovo Cim.19, 165 (1961). 
+
+\textit{“Our basic postulate is that it should be possible to generate strong,  weak and electromagnetic  interaction terms (with all their correct symmetry properties and also with clues regarding their relative strengths) by making local gauge transformations on the kinetic energy terms in the free Lagrangian for all particles.”}
+\Joao{Eu retirava a quote, ocupa espaço desnecessário, tendo em conta que apenas rearfima o que disseste anteriormente. E também é mais uma referência que ocupa espaço.}
+We are glossing over a lot of complexity here, and for the SM to be properly formulated\Joaoadd{,} additional concepts \Joaorep{would be}{are} required. In the case of \Joaoadd{the} weak interactions, the presence of \Joaorep{very heavy}{massive} weak gauge bosons require the new concept of spontaneous breakdown of the gauge symmetry \Joaorep{and the}{via that is known as the} Higgs mechanism \cite{higgs1964broken,englert1964broken,guralnik1964global} \Joao{Podes tirar uma. Tens muitas referências, por isso temos de reduzir o espaço ocupado}. 
+%
+While the concept of asymptotic freedom played a crucial role \Joaorep{to describe perturbatively}{in describing} the strong interaction at short distances \cite{politzer1973reliable,gross1973ultraviolet} \Joao{Só uma ref.}.  
+
+%\renewcommand{\cleardoublepage}{}
+%\renewcommand{\clearpage}{}
+
+\section{Internal symmetry of the Standard Model}\label{section:Symmetries_SM}
+%
+The SM is a \Joaoadd{gauge} \Joaoout{"standard"} \Joaoadd{Quantum Field Theory} \Joaoadd{(QFT)} \Joaoout{gauge theory}, that is \Joaoout{to say}, it is manifestly invariant under a set of field transformations. The SM gauge group, $\mathcal{G}_{SM}$, is seen in, \Joao{Aqui devias por uma referência ao SM, de um livro ou de lecture notes.}
+%
+\begin{equation}
+\mathcal{G}_{SM} = \mathrm{SU}(3)_{\mathrm{C}} \times \SU{L} \times \U{Y}.
+\label{eq:SM_Group}
+\end{equation} 
+%
+\Joaorep{Here we have, first, the}{Where,} $\mathrm{SU}(3)_{\mathrm{C}}$\Joaoadd{, with C being colour,} \Joaoadd{is the} group \Joaorep{corresponding to}{that describes the} \Joaoout{quantum chromodynamics} QCD \Joaoadd{sector}, responsible for the strong force. \Joaoadd{T}his symmetry will remain unbroken by the electroweak \Joaoadd{vacuum expectation value} (VEV). Secondly, we have the $\SU{L} \times \U{Y}$ portion, \Joaoadd{with L being Left and Y the hypercharge},  that will be broken by the Higgs mechanism into $\U{Q}$, the electromagnetic gauge symmetry.
+%
+Each particle stems from a field that is charged in a particular manner on each of these groups. \Joaoout{, making the charge triplets we will come to later define.} 
+%
+Given the invariance under the group in Eq.\,\eqref{eq:SM_Group} \Joao{Vê no tex como é para fazer referências das equações}, it is impossible \Joaoadd{for} \Joaoout{have} any field \Joaorep{that is charged have a explicit mass term}{, besides the scalar field, to have an explicit mass term in the bare Lagrangian.}. This chapter will focus on how the mass of particles is generate \Joaoout{trough}{via} the Higgs mechanism. And offer a brief discussion of flavour physics in the SM and how flavour changing currents can point to \Joaoout{{\color{blue} New Physics (NP)}} \Joaoadd{NP}. 
+
+%{ \color{gray} All masses for the fermions and leptons are generated trough their interactions with the Higgs Boson. This mass generation as the Higgs Boson settles into it's VEV is called the Higgs Mechanism. } 
+
+\subsubsection{Gauge Group numbers}
+\Joao{Subsubsections são um pouco desnecessárias na minha opinião, mas se quiseres podes deixar.}
+
+The full set of quantum numbers \Joaorep{in all the SMs fields}{for the SM fields} are \Joaorep{described}{shown} in \Joaoout{the} \Joaoadd{T}ables \ref{table1} and \ref{table2}\Joaoout{, this is their color charge, weak isospin number and the hypercharge, written in that order as entries in each triplet.}
+\\
+\\
+\Joao{Estás a confundir as coisas. A carga de cor e o número de isospin não é o que está na tabela. Para os grupos não abelianos, tu estás a indicar a \textbf{representação}. Por exemplo, quando disses, que o $A$ tem um número quântico de SU(2) de \textbf{3}, tu apenas estás a disser que ele é um tripleto de SU(2), $A^a=(A^1,A^2,A^3)$, sendo que o índice a está a correr sob a representação adjunta do grupo. Para campos com \textbf{2} eles são dobletos, para campos com \textbf{1} eles são singletos e portanto não participam na interacção. Por exemplo, o campo de Higgs é singleto de SU(3), logo não interage com os gluões.
+A carga de cor é vermelha, verde ou azul e é propriedade dos quarks na interacção com os gluões (é uma espécie de carga eléctrica). O isospin fraco é definido como $I_w = Q - \frac{1}{2}Y$ com $Q$ a carga de partícula e $Y$ a hipercarga.}
+%
+\begin{table}[H]
+\centering
+\caption{Gauge and Scalar fields \Joaoout{dimensions} in the SM}
+\label{table1}
+\begin{tabular}{@{}cccccc@{}}
+  \hline	
+ Fields & Spin 0 field & Spin 1 Field & $\mathrm{SU(3)_C} \times \mathrm{SU(2)_L} \times \mathrm{U(1)_Y}$  \\
+  \hline	
+ Gluons  & $\times$  & $\Joaoadd{G}^{\Joaoadd{a}}$ & (\textbf{8},\textbf{1},0) \\	
+A bosons & $\times$  & $A^{\Joaoadd{a}}$ & (\textbf{1},\textbf{3},0)   \\
+B bosons & $\times$  & $B$ & (\textbf{1},\textbf{1},0)   \\
+Higgs field & ($\phi^\pm, \phi^0 )$  & $\times$ & (\textbf{1},\textbf{2},1) \\ \hline
+\end{tabular}
+\end{table}
+%
+\begin{table}[H]
+\centering
+\caption{Fermion field \Joaoout{dimensions} in the SM}
+\label{table2}
+\begin{tabular}{@{}cccccc@{}}
+  \hline	
+ Fields & Spin $1/2$ Field & $\mathrm{SU(3)_C} \times \mathrm{SU(2)_L} \times \mathrm{U(1)_Y}$  \\
+  \hline	
+Quarks (3 gen.) & $Q=(u_L,d_L)$ & $(\textbf{3},\textbf{2},1/3)$ \\	
+$\quad$        & $u_R$ & $(\textbf{3},\textbf{1},4/3)$   \\
+$\quad$   & $d_R$ & $(\textbf{3},\textbf{1}, -2/3)$   \\
+Leptons (3 gen.) & $L=(\nu_{e_L}, e_L )$ & $(\textbf{1},\textbf{2},-1)$  \\
+$\quad$   & $e_R$ & $(\textbf{1},\textbf{1},-2)   $ \\ \hline
+%
+\end{tabular}
+\end{table}
+%
+\Joao{Para grupos não abelianos, os números devem ser colocados a negrito. Também fiz umas pequenas alterações para ficar mais visível.}
+From here, given the gauge group in Eq.\,\eqref{eq:SM_Group} and accounting for the charges and fields, we can derive the form of the SM's Lagrangian. These gauge groups are composed of 12 generators and are governed by the following algebra, 
+% 
+\begin{equation}
+\Joaoadd{\left[ M_a , M_b \right] = i f_{abc} M_c} \quad \left[ T_a , T_b \right] =  \epsilon_{abc} T_c \quad \Joaoadd{\left[ M_a , T_b \right] = \left[ M_a , Y \right]} = \left[ T_b,Y \right] = 0 
+\end{equation}
+%
+where for \Joaoout{the} $\mathrm{SU(3)_C}$ \Joaoout{triplets}, \Joaoadd{we have} $\Joaoadd{M_a}= \lambda_a/2$ \Joaoadd{with} $a = 1, . . . , 8$ \Joaoout{contrary to $\mathrm{SU(3)_c}$ singlets where, $L_a = 0$}, \Joaorep{As for the}{,for} $\mathrm{SU(2)_L}$ we have $T_i= \sigma_i/2 $ \Joaoadd{with} $i = 1, 2, 3$, \Joaoout{being that again for singlets $T_b=0$} \Joaoadd{and} $Y$ is the generator of $\mathrm{U(1)_Y}$. The symbols $\lambda$ and $\sigma$ represent the Gell-Mann and Pauli matrices, respectively. \Joao{Também estou a fazer alterações nas equações com verde. Em alguns casos é díficil de ver.}
+
+\subsection{Fields, Particles and Lagrangian of the SM}
+
+From these fields\Joaoadd{,} \Joaorep{the physical states of the SM, it's particle spectrum,}{the particle spectrum of SM} is composed by\Joaoout{, first,} the gauge bosons, \Joaoout{the weak force carriers,} $W^\pm$ and $Z$ \Joaoout{bosons}, \Joaoadd{mediators of the weak interaction} \Joaorep{and}{,} the photon $\gamma$, the electromagnetic interaction messenger and the strong force mediators, the gluons, $\Joaoadd{G}$, as well\Joaorep{, of course,}{as} \Joaoout{by} the matter particles, the fermions, composed by the quarks and leptons. \Joaoadd{A physical spin-0 scalar also emerges, known as the Higgs.}
+
+Leptons and quarks are organized in three generations each, with 2 pairs by each generation leading to 6 different particles \Joaoout{for each}. 
+%
+For quarks we have the up and down for the first generation, charm and strange for the second as well as \Joaoadd{the} top and bottom for the third one. 
+%
+Similarly, there are 6 types of leptons, the charged ones, electron, muon and tau, and the associated neutrinos. These are represented in different manners, being that the quarks are represented by the letters $(u,d,c,s,t,b)$ while leptons as $(e,\nu_{e},\mu,\nu_{\mu},\tau,\nu_{\tau})$. 
+
+Fermions are half integer spin particles\Joaoadd{,} half of which have electrical charge (except the neutrinos).  While quarks interact via the weak, electromagnetic and strong forces, the charged leptons only feel the electromagnetic and weak forces and the neutrinos are weakly interacting.  
+%
+A physical fermion is composed of a left-handed and a right-handed field. \Joaorep{While the left \Joaoadd{components} transform as $\mathrm{SU(2)_L}$ doublet}{The left-handed components of the fermions are doublets under $\mathrm{SU(2)_L}$} and can be written as
+%
+\begin{equation}\label{eq:Left_boys}
+L^i= \begin{pmatrix}
+\nu_{e_L} \\ e_L 
+\end{pmatrix},
+\begin{pmatrix}
+\nu_{\mu_L} \\ \mu_L 
+\end{pmatrix},
+\begin{pmatrix}
+\nu_{\tau_L} \\ \tau_L 
+\end{pmatrix} 
+\quad 
+\text{and} \quad Q^i= \begin{pmatrix}
+u_{L} \\
+d_L 
+\end{pmatrix},\begin{pmatrix}
+c_{L} \\
+s_L 
+\end{pmatrix}
+,\begin{pmatrix}
+t_{L} \\
+b_L 
+\end{pmatrix} \quad ,
+\end{equation}
+where the $i$ index stands for generation, often designed as the flavour index. \Joaorep{the latter are $\SU{L}$ singlets and can be simply represented as}{Conversely, the right-handed components are singlets of $\mathrm{SU(2)_L}$ and are represented as}
+%
+ \begin{equation}\label{eq:Right_boys}
+e^i_R=\{e_R,\mu_R,\tau_R\}, \quad  u^i_R=\{u_R,c_R,t_R\}, \quad d^i_R=\Joaoadd{\{d_{R},s_{R},b_{R}\}}, 
+\end{equation}
+%
+note also that the quarks form triplets of $\mathrm{SU(3)_C}$ whereas leptons are colour singlets \Joaoadd{meaning that only quarks interact strongly.} The Higgs boson also emerges from an $\mathrm{SU(2)_L}$ doublet with the form,
+%
+\begin{equation}\label{eq:Higgs_doublet}
+H=\begin{pmatrix}
+\phi^1 + \; i \; \phi^2 \\
+\phi^3 + \; i \; \phi^4  
+\end{pmatrix}, 
+\end{equation}
+%
+\Joao{Não ponhas quad depois das equações. Tens que pensar que as equações são uma continuação do texto, e as vírgulas estão agarradas a letra anterior}
+%The Lagrangian that describes all vector particles and gauge fields in the SM can be writen as
+%
+\Joaorep{Here}{where} we see the four components that correspond to the respective degrees of freedom of the Higgs Field.
+% 
+After the process of \Joaoadd{spontaneous symmetry breaking} (SSB) of the $\mathrm{SU(2)_L} \times \U{Y}$ group the charges \Joaoout{of the fermions along their QCD and QED numbers} become 
+%
+\begin{table}[H]\label{tab:Charges_post_SSB}
+\caption{Quark and Lepton charges. \Joao{Novamente, a negrito para não abelianos}}
+\centering
+\begin{tabular}{ccc}
+  \hline & $\mathrm{SU(3)_C}$ & $\mathrm{U(1)_Q}$ \\
+  \hline 
+Up type quarks $(u,c,t)$ & \textbf{3} & 2/3 \\
+Down type quarks $(d,s,b)$ & \textbf{3} & -1/3 \\
+Charged leptons $(e,\mu,\tau)$ & \textbf{1} & -1 \\
+Neutrinos  $(\nu_e,\nu_\mu,\nu_\tau)$  & \textbf{1} & 0 \\
+  \hline	
+\end{tabular}
+\end{table}
+
+\subsubsection{Lagrangian formulation }
+%
+Given the SM gauge groups, \Joaoadd{seen in Eq.\,\eqref{eq:SM_Group}} and charges, \Joaoadd{seen in Tables \ref{table1} and \ref{table2}} the covariant derivative, $D_\mu$, \Joaoout{will} read\Joaoadd{s} as
+%
+\begin{equation}
+\label{eq:PartialDefSM}
+D_\mu = \partial_\mu - i \Joaoadd{g_s} \Joaoadd{M^a} G^a_\mu - i g T^i A^i_\mu - i g' Y B_\mu.
+\end{equation}  
+%
+\Joao{Acho que o último tem de estar a dividir por dois. Confirma.} We can expect 3 different type of couplings, $g_s$ related to the $\mathrm{SU(3)_C}$ subgroup, $g$ to the $\mathrm{SU(2)_L}$ and $g^\prime$ to $\mathrm{U(\Joaoadd{1})_Y}$. The associated canonical field strength tensors would be,
+\begin{equation}\label{eq:Field_strength_tensors}
+\begin{aligned}
+G_a^{\mu \nu} & = \partial^\mu G^\nu_a - \partial^{\Joaoadd{\nu}} G^\mu_a - g_s f_{abc} G_{\Joaoadd{b}}^\mu G_{\Joaoadd{c}}^\nu,  \\ 
+A_a^{\mu \nu} & = \partial^\mu A^\nu_a - \partial^\nu A^\mu_a  - g \epsilon_{abc} A^\mu_b A^\nu_c, \\
+B^{\mu \nu}   & = \partial^\mu B^\nu - \partial^\nu B^\mu.
+\end{aligned}
+\end{equation}
+It is often convenient to present the SM Lagrangian in portions, usually divided in three sections\footnote{\Joaoadd{Of course, there is also the need for the introduction of gauge fixing terms and ghosts. However, this is merely a formal requirement and does not imply addition of new physical states.}},
+\begin{equation}\label{eq:SM_baby_lagrangian}
+\mathcal{L}_{SM} = \mathcal{L}_{kin}  +  \mathcal{L}_{Yuk} +  \mathcal{L}_{\phi}\Joaoadd{,}
+\end{equation}
+\Joaoadd{w}here we have the kinetic portion of the SM terms, $\mathcal{L}_{kin}$, responsible for  free propagation of particles, the Yukawa portion, $\mathcal{L}_{Yuk}$  corresponding to interactions of particles with the Higgs \Joaoadd{b}oson, and finally the $\mathcal{L}_{\phi}$ scalar potential. The full kinetic portion of the SM read, 
+%
+\begin{equation}\label{eq:KinSM}
+\begin{aligned}
+\mathcal{L}_{kin} = & - \frac{1}{4} G^{\Joaoadd{\mu\nu}}_a G_{a \,\Joaoadd{\mu\nu}}  - \frac{1}{4}  A^{\Joaoadd{\mu\nu}}_a A_{a \,\Joaoadd{\mu\nu}}  
+- \frac{1}{4}  B^{\Joaoadd{\mu\nu}} B_{\Joaoadd{\mu\nu}}  \\ 
+ & -i \Joaoadd{\bar{Q}}_{\Joaoadd{i}} \slashed{D} Q_{\Joaoadd{i}} 
+   -i \Joaoadd{\bar{u}}_{R_i} \slashed{D} u_{R_i}  
+   -i \Joaoadd{\bar{d}}_{R_i} \slashed{D} d_{R_i}  
+   -i \Joaoadd{\bar{L}}_{\Joaoadd{i}} \slashed{D} L_{\Joaoadd{i}}    
+   -i \Joaoadd{\bar{e}}_{R_i} \slashed{D} e_{R_i}   \\
+ & - (D_\mu H)^\dagger ( D^\mu H ),    
+\end{aligned}
+\end{equation}
+\Joaoadd{w}here $\slashed{D}$ is the Dirac covariant derivative, $\gamma^\mu D_\mu$. From the last line \Joaoadd{of} Eq.\,\eqref{eq:KinSM} and with Eq.\,\eqref{eq:PartialDefSM} we will present how the \Joaorep{generators}{fields} $A^{\Joaoadd{a}}_\mu$ and $B_\mu$ give rise to the weakly interacting vector bosons $W^\pm$ and $Z^0$ and the electromagnetic vector boson $\gamma$. Contrary to the colo\Joaoadd{u}r sector, where the eight generators $G^a_\mu$ simply correspond to eight gluons $\Joaoadd{G}$ \Joaoout{a} mediating \Joaoadd{the} strong interactions.
+%
+\Joaorep{While the}{The} scalar potential part \Joaoadd{is written as} 
+%
+\begin{equation}
+\label{eq:PotentialSM}
+\mathcal{L}_{\phi} = -\mu^2 H H^\dagger - \lambda (H H^\dagger)^2.
+\end{equation}
+Finally the Yukawa portion of the Lagrangian \Joaorep{would be written as}{is} 
+\begin{equation}
+\label{eq:YukawaSM}
+\mathcal{L}_{Yuk} = Y^u_{ij} \Joaoadd{\bar{Q}}_{\Joaoadd{i}} u_{R_j}  \tilde{H} + Y^d_{ij} \Joaoadd{\bar{Q}}_{\Joaoadd{i}}  d_{R_j} H  + Y^e_{\Joaoadd{ij}} \Joaoadd{\bar{L}}_{\Joaoadd{i}}  e_{R_{\Joaoadd{j}}} H + \Joaoadd{\mathrm{H.c.}},
+\end{equation}
+%
+\Joaorep{Here}{where} \Joaoout{we have,} \Joaoadd{$\tilde{H}=i\sigma_2 H$ and $\mathrm{H.c.}$ represents the Hermitian conjugate of previous terms. $Y^{e,u,d}$ stand for the Yukawa matrices, these are generic $3\times3$ with complex and non-dimensional matrix elements.}
+%
+%{ \color{gray} It is due to the Yukawa interactions between the Higgs and the fermions and leptons that these acquire their masses once the Higgs settles into his VEV. } { \color{blue} same as before }
+%
+\Joaoout{We'll define these fields in the relevant section.} Note that \Joaoout{naturally} all indices \Joaorep{seem}{seen} in Eqs.\,\eqref{eq:KinSM}, \eqref{eq:PotentialSM} and \eqref{eq:YukawaSM}, ($i,j$) are summed over. 
+
+
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+
+\section{The Higgs mechanism and the mass generation of the Gauge bosons}\label{section:Higgs_mechanism}
+
+From what was defined above, we can now study the process \Joaoadd{of} SSB by which, 
+%
+\begin{equation}\label{eq:breaking_SSB}
+\SU{L}\times\U{Y} \rightarrow \U{Q}.
+\end{equation} 
+%
+\Joaoout{and carry trough to the Higgs Mechanism.} Enabling us to find the real physical states of the gauge bosons and the origin of their mass. Let us \Joaoout{then} consider the part of the Lagrangian containing the scalar covariant derivatives, the scalar potential and the gauge-kinetic terms,
+%
+\begin{equation}
+\mathcal{L}_{Gauge} \supset (D_\mu H)(D^\mu H)^\dagger - \mu^2 H^\dagger H - \lambda (H^\dagger H)^2 - \frac{1}{4}  W^{\Joaoadd{\mu\nu}}_a W_{a \,\Joaoadd{\mu\nu}}  
+- \frac{1}{4}  B^{\Joaoadd{\mu\nu}} B_{\Joaoadd{\mu\nu}}\Joaoadd{,}
+\label{eq:GaugeSM}
+\end{equation} 
+% 
+We expect a phase shift to occur, namely one that ensures $\mu^2 < 0$ while at the same \Joaorep{ensuring}{guarantying} that the field now explicitly breaks the $\mathrm{SU(2)_L \times U(1)_Y}$. For this to happen we expect the shifted squared value of the Higgs field to be,
+%
+\begin{equation}\label{eq:vev}
+(H^\dagger H)^{\Joaoadd{2}} = \frac{-\mu^2}{2\lambda} \Joaoadd{\equiv v^2}, 
+\end{equation} 
+\Joaoout{This VEV,} called the electroweak VEV, is experimentally measured to be $v \approx 246$ GeV. 
+%
+The choice of vacuum can be aligned in such a way that we have,
+\begin{equation}\label{eq:vev_expansion}
+H_{min} = \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\
+v 
+\end{pmatrix}.
+\end{equation}
+Given that now the $SU(2)_L \times U(1)_Y$ symmetry is broken down to $U(1)_Q$, we jump from a scenario where there were four generators, which are $T^{1,2,3}$ and $Y$, to\Joaoout{, after the breaking,} having solely one unbroken combination that is $Q =  (T^3 + 1/2)$ associated to the electric charge. This means that in total we will have three broken generators, thus, from \Joaoadd{the} Goldstone \Joaoadd{t}heorem, there would have to be created three massless particles. 
+
+These Goldstones modes\Joaoadd{,} however\Joaoadd{,} can \Joaoout{then} be \Joaorep{parametrized}{parameterized} as phases in \Joaoout{the} field space and \Joaoout{then} can be \Joaoadd{``}rotated away\Joaoadd{''} in the physical basis, leaving us with a single physical massive scalar, the Higgs boson. Note that, with this transformation we are removing three scalar degrees of freedom.  However, they cannot just disappear from the theory and will be absorbed by the massive gauge bosons.
+%
+In fact, a massless gauge boson contains only two scalar degrees of freedom (transverse and polarization). Meanwhile, a massive vector boson has two transverse and a longitudinal polarization, i.e., three scalar degrees of freedom. So, as we discussed above, while before the breaking of the EW symmetry we have four massless gauge bosons \Joaoadd{and} after the breaking we are left with three massive ones. This means that there are three extra scalar degrees of freedom showing up in the gauge sector. It is then commonly said that the \Joaoadd{G}oldstone bosons are ``eaten'' by the massive gauge bosons and the total number of scalar degrees of freedom in the theory is preserved. Therefore, without loss of generality, we can rewrite the Higgs doublet as
+%
+\begin{equation}
+ \begin{pmatrix}
+G_1 + i G_2 \\ 
+v + \Joaoadd{h} + i G_3 
+\end{pmatrix} = \Joaoadd{H} \rightarrow \Joaoadd{H}  =  \frac{1}{\sqrt{2}} \begin{pmatrix}
+0 \\ 
+v + \Joaoadd{h} 
+\end{pmatrix}.
+\label{shame}%Oki
+\end{equation}
+Once the Higgs doublet acquires a VEV, the Lagrangian \eqref{eq:GaugeSM} can be recast as:
+%
+\begin{align}
+\mathcal{L}^\prime = & \frac{1}{2} \partial_\mu h \partial^\mu h - \frac{1}{2} (2v^2 \lambda) h^2
+ - \frac{1}{4}  W^{\Joaoadd{\mu\nu}}_a W_{a \,\Joaoadd{\mu\nu}}  
+- \frac{1}{4}  B^{\Joaoadd{\mu\nu}} B_{\Joaoadd{\mu\nu}}  \nonumber \\
+& + \frac{1}{8} v^2 g^2 (A^1_\mu A^{1,\mu}+ A^2_\mu A^{2,\mu}) +  \frac{1}{8} v^2  (g^2  A^3_\mu A^{3,\mu} + g^{\prime 2} B_\mu B^\mu - 2 g^2 g^{\prime 2} A^3_\mu B^\mu ). 
+\label{complicatedpart}
+\end{align}
+%
+A few things become obvious. \Joaoadd{F}irst, we have a lot of mass terms \Joaoout{most} stemming from the squared gauge fields and a lonesome \Joaoout{squared} mass term belonging to the real scalar field we know to be the Higgs field. This makes the Higgs boson mass \Joaoout{in the SM} to be given by
+%
+\begin{equation}\label{eq:Higgs_mass}
+M_h= (2v^2 \lambda).  
+\end{equation}
+%
+To obtain masses for the gauge bosons we need to rotate the gauge fields to a basis where the mass terms are diagonal. First, it is straightforward to see that the electrically charged eigenstates are given by %\ref{gagestate}
+%First the fields that carry defined charge that can be easily shown to be 
+\begin{equation}
+W^\pm_\mu = \frac{1}{\sqrt{2}} (A^{(1)}_\mu \pm i A^{(2)}_\mu), 
+\label{gagestate}
+\end{equation}
+meaning that the mass of the W bosons is, 
+\begin{equation}
+M_{W^\pm}= \frac{1}{2} v g.
+\end{equation}
+%
+The situation becomes a bit more complicated for the second term in \eqref{complicatedpart} due to \Joaoout{a} mixing between $A_\mu^3$ and $B_\mu$. In the gauge eigenbasis the mass terms read
+%
+\begin{equation}\label{eq:Mass_matrix_diag_1}
+\begin{pmatrix}
+A_\mu^3 && B_\mu
+\end{pmatrix} \cdot  \frac{1}{4} \nu ^2 \begin{pmatrix}
+g^2  & -g g^\prime \\
+-g g^\prime & g^{\prime 2} 
+\end{pmatrix} \cdot \begin{pmatrix}
+A_\mu^3 \\  B_\mu
+\end{pmatrix}, 
+\end{equation} 
+%
+which can be diagonalized to obtain
+%
+\begin{equation}\label{eq:Mass_matrix_diag_2}
+\begin{pmatrix}
+A_\mu && Z_\mu 
+\end{pmatrix} \begin{pmatrix}
+0  & 0 \\
+0  & \frac{1}{2} v \sqrt{g^2 + g^{\prime 2}} 
+\end{pmatrix}  \begin{pmatrix}
+A^\mu \\ Z^\mu
+\end{pmatrix}, 
+\end{equation}
+%Where the new eigenvectors that represent the $Z$ boson and the photon, $A^\mu$ in terms of the former base are written as,
+%
+\Joaoadd{where} we identify the eigenvector associated \Joaorep{to}{with} the \Joaoadd{null} eigenvalue \Joaoout{0} to \Joaoadd{be} the photon and the massive one, $ M_Z =  \frac{1}{2} v \sqrt{g^2 + g^{\prime 2}} $, to \Joaoadd{be} the Z boson. Such eigenvectors can be written as
+%
+\begin{align}
+A_\mu &=\cos(\theta_{\Joaoadd{W}}) B_\mu + \sin(\theta_{\Joaoadd{W}}) A_\mu^3,  \\  
+Z_\mu & =- \sin(\theta_{\Joaoadd{W}}) B_\mu + \cos(\theta_{\Joaoadd{W}}) A_\mu^3, 
+\end{align}
+%
+where $\theta_{\Joaoadd{W}}$ is the so called Weinberg mixing angle and is defined as
+%
+\begin{equation}
+\cos(\theta_\omega)=\frac{g}{ \sqrt{g^2 + g^{\prime 2}}}.  
+\end{equation}
+%
+\Joaoadd{T}hus \Joaoout{clearly} showing the massless photon along with a massive Z boson with mass $M_Z= \frac{1}{2} \nu \sqrt{g^2 + g^{\prime 2}} $. 
+%
+So we conclude our exploration of the electroweak sector with all the correct massive spectrum observed and its origin discussed.
+
+\input{Yukawa} 
+
+\subsection{Charged Flavour Currents vs. Neutral Flavour Currents}
+
+In the SM there is a very important distinction between flavour changing neutral and charged currents. \Joaoout{Flavour Changing Neutral Currents} FCNCs are processes in which the quark flavour changes, while the quark charge stays the same. 
+%
+The Flavour Changing Charged Currents (FCCCs) change both the flavour and the charge of the quark. 
+%
+Extracting some representative probabilities from \cite{Tanabashi:2018oca} reveals that the two types of processes are strikingly different.  
+%
+The charged currents lead to the dominant weak decays, while the FCNC\Joaoadd{s} induce\Joaoout{d} decays \Joaoadd{that} are extremely suppressed. Rounding the experimental results, and not showing the errors, a few representative decays are, 
+%
+\setlength{\tabcolsep}{2pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1} % Default value: 1
+%
+\begin{table}[!htb]
+    %\caption{Global caption}
+    \begin{minipage}{.5\linewidth}
+      \caption{FCCCs examples}
+\centering
+\begin{tabular}{lcl}
+$s \rightarrow u \mu^- \nu_\mu $ & : & Br $\left( K^+ \rightarrow \mu^- \nu\right) = 64 \%$                 \\
+$b \rightarrow c l^- \nu_l $       & : & Br $\left( B^- \rightarrow D^0 l \overline{\nu}_l \right) = 2.3 \% $ \\
+$c \rightarrow u \mu^- \nu_\mu $   & : & Br $\left( D^\pm \rightarrow K^0 \mu^\pm \nu \right) = 9 \%$        
+\end{tabular}
+    \end{minipage}%
+    \begin{minipage}{.5\linewidth}
+      \centering
+        \caption{FCNCs examples}
+\begin{tabular}{lcl}
+$s \rightarrow d \mu^+ \mu^- $ & : & Br $\left( K_L \rightarrow\mu^+ \mu^- \right) =  7\times10^{-9}$        \\
+$ b \rightarrow d \mu^+ \mu^-$ & : & Br $\left( B^- \rightarrow  K^{\** -} l^+ l^- \right) =  5\times10^{-7}$ \\
+$ c \rightarrow u l^+ l^-$     & : & Br $\left( D^0 \rightarrow \pi l^+ l^- \right) =  1.8\times10^{-4}$      
+\end{tabular}
+    \end{minipage} 
+\end{table}
+
+\setlength{\tabcolsep}{6pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1} % Default value: 1
+
+The reason for such a striking difference is that in the SM the charged currents occur at tree level, while FCNCs are forbidden at tree level and only arise starting at one loop order\Joaoadd{. N}ote the lack of neutral couplings between the up and down families in Eq \ref{LagFermFCCCs}. The relative complexity of these processes can be easily seen in Fig \ref{fig:Flavour_D_1},
+%
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Stolen.png}
+	\caption{Representative tree level charged current diagram (left) and a loop induced FCNC diagram (right).}
+	\label{fig:Flavour_D_1}
+\end{figure}
+%
+%Making FCNCs virtual process.
+%
+Furthermore, the FCNCs come suppressed by the difference of the masses of the quarks running in the loop, $m^2_j-m^2_i$. This so called Glashow-Iliopoulos-Maiani (GIM) mechanism \cite{glashow1970weak}. Given the \Joaoadd{differences} between the masses of the up and down sectors, \Joaorep{it}{this} has a significant impact. 
+%
+A interesting result of this mechanism would be that that there is no flavour violation, if all the quark masses are the same.
+
+\subsubsection{Flavour as a Probe into New Physics}
+
+Now that we have introduced \Joaorep{without great detail}{a bit of} flavour physics we can briefly touch on why collider experiments have been sold \Joaoout{a} as a pathway to discovering new physics i.e. how deviation in rare decays could pin point exactly what is missing in the \Joaorep{Standard Model}{SM}. 
+
+Thanks to these large experiments we have many new observables in flavour physics, e.g. \Joaoout{the} branching ratios, asymmetries, distributions \Joao{Que asimetrias? Que distribuições? Diz em específico}. For each of these examples there is also a plethora of different parent particles for each change of flavour, as well as many instances of final states. 
+%
+The abundance of observables is clearly illustrated by opening the handy Particle Data Group (PDG) book \Joao{Alterei citação para aparecer todos os nomes}\cite{Tanabashi:2018oca}.\Joaoout{where even the condensed version, the PDG booklet, clocks out at more than 170 pages of mostly tabled information about these observables.}
+
+%To shorten the discussion we will focus on the processes that are at present showing deviations from the SM expectations. 
+
+The recipe then, seems simple, identify processes that are rare in the SM and then search for deviations from the SM predictions. However\Joaoadd{,} thus far\Joaoadd{,} all but two processes are within $2\sigma$ experimental and theoretical bounds given by the SM. 
+%
+These are the $b \rightarrow s \mu \mu$ and $b \rightarrow c \tau \nu$ channels. They are, so far, showing over $ 4 \sigma$ deviations from \Joaoout{the} their expected value. {\color{blue} (citation needed \Joao{Damn right you are!})}.
+%
+Without going into too much depth onto the NP searches, we can examine the scale at which these processes are "integrated away". This is the energy scale at which a NP vector-axial operator would allow these processes to exist only at high energies. These energies are naturally high given the terms in \eqref{eq:NP}. 
+% Avoiding going in depth into these processes, what this might point us too, by these processes as suppressed the vector-axial processes. For them to be integrated away we get very different, but high, energy scales. There would have to exist terms a kin to, 
+%If examined through V-A operators the NP scale of these 2 processes are both very different and very heavy, these would be something a kin to, 
+%
+\bigbreak
+%
+\noindent\begin{minipage}{.3\textwidth}
+	\begin{figure}[H]
+		\label{fig:contactNP}
+		\centering
+		\includegraphics[width=0.65\textwidth]{My_First_Diagram.png}
+		\caption{"Contact" interactions with loop interactions containing NP}
+	\end{figure}
+\end{minipage}
+\begin{minipage}{.6\textwidth}
+\begin{equation}
+\label{eq:NP}
+\mathcal{L}_{NP} \supset \frac{1}{\Lambda_{NP}} (\bar{Q}_i \gamma^\mu \sigma^A Q_j ) (\bar{L}_k \gamma_\mu \sigma^A L_l) 
+\end{equation}
+\end{minipage}
+%
+\bigbreak
+%
+\Joao{O que é o $\sigma^A$? Não existe nada a contrair os índices de flavour, é mesmo assim? O $A$ também é um índice livre} To explain $b \rightarrow s \mu \mu$ transitions you would need a $\Lambda_{NP} \approx 3 \ \text{TeV}$ while for $b \rightarrow c \tau \nu$ you would need a $\Lambda_{NP} \approx 30\ \text{TeV}$ \Joao{Podes explicar? Eu não sei.}. This is a strong indicator that some components are missing in our formulation like a new mediator for gauge interactions. \Joaorep{And the}{The} advantage of this scale is \Joaoout{it} almost certainly in most BSM scenarios, avoiding most experimental constraints.
+
+As for the FCNC diagram \Joaoout{for}, the $b \rightarrow s \mu \mu$ channel can be seen in Fig \ref{fig:Flavour_D_2_Muon}, 
+%
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Stolen_2.png}
+	\caption{A representative SM diagram for $b \rightarrow s \mu \mu$ transition (left), and representative possible loop level NP
+contributions (middle and right).}
+	\label{fig:Flavour_D_2_Muon}
+\end{figure}
+%
+The $b \rightarrow c \tau \nu$ flavour anomaly is similarly very clean theoretically \cite{Fajfer_2012}. However, the NP effect in these diagrams is large {\color{blue} (citation needed)} and often this means that the scale of NP needs to be lower than in the previous case. Consequently the NP interpretations here are often in conflict with experimental constraints {\color{blue} (citation needed)}.
+%
+This means the most obvious candidates are ruled out. Theoretical bias would have been that the new charged currents are either due to a charged Higgs, $H^+$ , or a new vector boson, $W^\prime$, see Fig. \ref{fig:Flavour_D_3_Tau} {\color{blue} (citation needed)}.
+%
+\begin{figure}[H]	
+	\centering
+	\includegraphics[width=0.75\textwidth]{Stolen_3.png}
+	\caption{The SM diagrams for $b \rightarrow c \tau \nu$ transition (left), and the possible tree level NP contributions to $b \rightarrow c \tau \nu$ transition (middle and right). \Joao{Não disses o que é o LQ. É um leptoquark?}}
+	\label{fig:Flavour_D_3_Tau}
+\end{figure}
+%
+Another prediction of the SM is that the rates for the  $b \rightarrow s e^+ e^-$ and  $b \rightarrow s \mu^- \mu^+$ transitions should be equal to each other.
+%
+The SM prediction of Lepton Flavour Universality (LFU) is deeply engrained in the structure of the theory, since it is a consequence of the fact that the electroweak gauge group is the same for all three generations. 
+%
+The prediction of LFU can be tested experimentally, also trough flavour physics, by theoretically clean observables such as the ratios \Joaoout{of these flavour observables,} 
+%
+\begin{equation}
+R_{K^{\**}} = \frac{\text{Br}( B \rightarrow K^{\**} \mu^- \mu^+ )}{\text{Br} (  B \rightarrow K^{\**} e^- e^+  )}.
+\end{equation}
+% 
+Another strong indicator of new physics is the fact the experimental value for this ratio is $R_{K^{\**}} \approx 0.7$, violating LFU by $2.2 - 2.6 \sigma$ {\color{blue} (citation needed)}.
+
+\subsubsection{The Future of Flavour Indirect Searches}
+
+The NP searches with rare decays \Joaorep{, as well boost with the upcoming}{will benefit from the upcoming upgrades at} Belle II and \Joaoadd{the} LHC \Joaoout{upgrades}. Belle II expects to collect 50 times the Belle dataset. First collisions were seen in May 2018, and the first B physics run is expected in March 2019. While for the LHC, after upgrade II aims for roughly 100 times the present data set with an upgraded detector. {\color{blue} (citation needed)}.
+%
+%A rule of thumb on the improved NP reach gives, for instance for Belle II, that the reach in $\Lambda_NP$ will be improved by $\sqrt[4]{50} \approx 2.7$. Similar if not larger increase applies to LHCb Upgrade II sensitivity improvements. This is a similar jump in energy reach as going from 13 TeV LHC to a 35 TeV LHC!
+%
+Undoubtedly this improvement in sensibility will translate to a finer value for all measurable parameters at these experiments. We expect these anomalies then to go over the required $5 \sigma$ in future experiments (Assuming of course, they are not statistical deviations). {\color{blue} (citation needed)}.
+

@@ -1,0 +1,52 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Contents}{i}{section.0.1}%
+\contentsline {chapter}{List of Figures}{ii}{section.0.2}%
+\contentsline {chapter}{List of Tables}{iv}{section.0.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}The Standard Model of Particle Physics}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Internal symmetry of the Standard Model}{3}{section.2.1}%
+\contentsline {subsubsection}{Particle States and Fields}{4}{equation.2.1.1}%
+\contentsline {subsubsection}{Gauge Group numbers}{5}{table.caption.4}%
+\contentsline {subsubsection}{Lagrangian formulation }{5}{equation.2.1.5}%
+\contentsline {section}{\numberline {2.2}The Higgs mechanism and the mass generation of the Gauge bosons}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Fermion Masses in the SM and Quark mixing}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Charged Flavour Currents vs. Neutral Flavour Currents}{10}{subsection.2.3.1}%
+\contentsline {subsubsection}{Flavour as a Probe into New Physics}{11}{figure.caption.9}%
+\contentsline {subsubsection}{The Future of Flavour Indirect Searches}{13}{equation.2.3.36}%
+\contentsline {chapter}{\numberline {3}B-L-SM Model}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Formulating the model}{15}{section.3.1}%
+\contentsline {subsubsection}{Scalar sector}{15}{table.caption.13}%
+\contentsline {subsubsection}{Gauge Sector}{17}{equation.3.1.12}%
+\contentsline {subsubsection}{The Yukawa sector}{19}{equation.3.1.26}%
+\contentsline {section}{\numberline {3.2}Numerical Results}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The scanning apparatus}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Numerical discussion}{21}{subsection.3.2.2}%
+\contentsline {subsubsection}{Electroweak precision observables}{21}{table.caption.16}%
+\contentsline {subsubsection}{Higgs Constraints}{22}{figure.caption.17}%
+\contentsline {subsubsection}{$Z^\prime $ Constraints}{23}{figure.caption.17}%
+\contentsline {subsubsection}{Implications of direct $Z^\prime $ searches at the LHC for the $\left (g-2\right )_\mu $ anomaly}{24}{table.caption.19}%
+\contentsline {subsubsection}{Barr-Zee type contributions}{27}{equation.3.2.42}%
+\contentsline {chapter}{\numberline {4}3HDM Model}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The Case of the BGL-2HDM and its Relation to our Work}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The formulation of a BGL-like 3HDM}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}The Scalar Sector}{31}{subsection.4.2.1}%
+\contentsline {subsubsection}{The Higgs Basis}{32}{equation.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.2}The Gauge Sector}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}The Yukawa sector}{34}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}The BGL-like suppression of FCNCs in the 3HDM model}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}The inversion process}{37}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}The CP-odd portion of the scalar sector}{37}{subsection.4.4.1}%
+\contentsline {subsubsection}{Pseudoscalar Eigenstates}{37}{subsection.4.4.1}%
+\contentsline {subsubsection}{Charged Scalar Eigenstates}{39}{equation.4.4.43}%
+\contentsline {subsection}{\numberline {4.4.2}The CP-even portion of the scalar sector}{40}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Numerical Discussion of the 3HDM}{42}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Methodology and Constraints}{43}{subsection.4.5.1}%
+\contentsline {subsubsection}{QFV Observables}{43}{subsection.4.5.1}%
+\contentsline {subsubsection}{Bounded from bellow}{45}{figure.caption.28}%
+\contentsline {subsubsection}{Unitarity}{45}{equation.4.5.70}%
+\contentsline {subsection}{\numberline {4.5.2}Discussion of results}{46}{subsection.4.5.2}%
+\contentsline {subsubsection}{Electroweak precision observables}{46}{subsection.4.5.2}%
+\contentsline {subsubsection}{Higgs Constraints}{47}{figure.caption.30}%
+\contentsline {subsubsection}{Flavour Cuts }{48}{figure.caption.32}%
+\contentsline {chapter}{\numberline {5}Conclusions}{52}{chapter.5}%
+\contentsline {chapter}{\numberline {A}The loop integral $\textrm {T}_7(x,y,x)$ }{54}{appendix.A}%

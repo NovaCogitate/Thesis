@@ -1,0 +1,191 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.9.9)  25 NOV 2020 19:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**feynmf.ins
+(./feynmf.ins
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count167
+\emptyLines=\count168
+\processedLines=\count169
+\commentsRemoved=\count170
+\commentsPassed=\count171
+\codeLinesPassed=\count172
+\TotalprocessedLines=\count173
+\TotalcommentsRemoved=\count174
+\TotalcommentsPassed=\count175
+\TotalcodeLinesPassed=\count176
+\NumberOfFiles=\count177
+\inFile=\read2
+\inputcheck=\read3
+\off@0=\count178
+\off@1=\count179
+\off@2=\count180
+\off@3=\count181
+\off@4=\count182
+\off@5=\count183
+\off@6=\count184
+\off@7=\count185
+\off@8=\count186
+\off@9=\count187
+\off@10=\count188
+\off@11=\count189
+\off@12=\count190
+\off@13=\count191
+\off@14=\count192
+\off@15=\count193
+\@maxfiles=\count194
+\@maxoutfiles=\count195
+
+Utility: `docstrip' 2.5g <2018/05/03>
+English documentation    <2018/05/03>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+(./feynmf.ins
+Generating style file feynmf.sty for the feynmf package:
+
+Generating file(s) ./feynmf.sty 
+\openout0 = `./feynmf.sty'.
+
+
+Processing file feynmf.dtx (style) -> feynmf.sty
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating Metafont base feynmf.mf:
+
+Generating file(s) ./feynmf.mf 
+\openout0 = `./feynmf.mf'.
+
+
+Processing file feynmf.dtx (base) -> feynmf.mf
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating style file feynmp.sty for the MetaPost version:
+
+Generating file(s) ./feynmp.sty 
+\openout0 = `./feynmp.sty'.
+
+
+Processing file feynmf.dtx (style,mp) -> feynmp.sty
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating MetaPost base feynmp.mp:
+
+Generating file(s) ./feynmp.mp 
+\openout0 = `./feynmp.mp'.
+
+
+Processing file feynmf.dtx (base,mp) -> feynmp.mp
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating driver file for manual fmfman.drv:
+
+Generating file(s) ./fmfman.drv 
+\openout0 = `./fmfman.drv'.
+
+
+Processing file feynmf.dtx (driver,manual) -> fmfman.drv
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating alternate MetaPost driver file fmfmanps.drv:
+
+Generating file(s) ./fmfmanps.drv 
+\openout0 = `./fmfmanps.drv'.
+
+
+Processing file feynmf.dtx (driver,manual,mp) -> fmfmanps.drv
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating driver file for documentation feynmf.drv:
+
+Generating file(s) ./feynmf.drv 
+\openout0 = `./feynmf.drv'.
+
+
+Processing file feynmf.dtx (driver) -> feynmf.drv
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+Generating alternate MetaPost driver file feynmp.drv:
+
+Generating file(s) ./feynmp.drv 
+\openout0 = `./feynmp.drv'.
+
+
+Processing file feynmf.dtx (driver,mp) -> feynmp.drv
+File feynmf.dtx ended by \endinput.
+Lines  processed: 7792
+Comments removed: 5055
+Comments  passed: 19
+Codelines passed: 2520
+
+***************************************************************
+*
+* To finish the installation you have to move the files
+*
+*  o feynmf.sty into a directory searched by TeX
+*  o feynmf.mf into a directory searched by Metafont
+*  o feynmp.sty into a directory searched by TeX
+*  o feynmp.mp into a directory searched by MetaPost
+*
+* You can remove the latter two if you don't have
+* John Hobby's MetaPost system. Optionally you can copy the
+* files fmfman.dtx and fmfmanps.drv into a directory searched by
+* TeX, so that users can print a copy of the documentation.
+*
+***************************************************************
+)
+Overall statistics:
+Files  processed: 8
+Lines  processed: 62336
+Comments removed: 40440
+Comments  passed: 152
+Codelines passed: 20160
+ ) ) 
+Here is how much of TeX's memory you used:
+ 384 strings out of 481240
+ 4053 string characters out of 5920404
+ 239410 words of memory out of 5000000
+ 15738 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 16i,0n,18p,222b,137s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.

@@ -1,0 +1,463 @@
+%\chapter{Introduction}
+%\label{ch:Intro}
+
+\newpage
+
+\chapter{Introduction}
+\label{chapter:Introduction}
+%\section{Introduction}
+
+%\section{The Sturdy SM with some holes}
+
+\Joaorep{The modern study of particle physics}{Our current understanding of all subatomic phenomena} must be \Joaorep{taught}{understood} trough the Standard Model (SM) of particle physics. 
+%
+The SM has thus far \Joaoadd{been} the best descriptor for the experimentally observed spectra of particles and their interactions at \Joaorep{all current probable scales}{the electroweak (EW) scale}. 
+%
+And \Joaorep{In}{in} 2012\Joaoadd{,} a resonance was discovered \Joaorep{in}{at} the \Joaorep{LHC}{Large Hadron Collider (LHC)} that seems to confirm the existence of \Joaorep{it's}{its} last predicted particle, the Higgs boson, finally completing the model and proving the existence of the Higgs mechanism \cite{Aad_2012,chatrchyan2012observation,
+collaborations2015combined,collaborations2016measurements} \Joao{Não necessitas de tantas referências para o Higgs, uma ou duas basta}. 
+
+The development of the SM was a arduous task, it led scientists  \Joaoadd{to} successfully combine three of the four fundamental forces of nature in a \Joaoout{very} well motivated framework, making it one of the most monumental achievements in theoretical physics.
+%
+However, despite \Joaorep{it's}{its} successes the SM still lacks a strong explanation for several experimental observations. \Joaoout{They have become more numerous by the decade, and to provide a "short" overview of some of them.}
+
+\Joaorep{We firstly}{First, we} have the fact \Joaoadd{that} the SM can not account for one of the most important cosmological discoveries of the century, the existence of dark matter \Joao{Ref.}. This is a fundamental flaw since the SM lacks a possible dark matter candidate, or dark particle \Joao{Ref.}. 
+%
+Secondly, the SM lacks any justification for the existence of baryon asymmetry in the universe \Joao{Ref.}, i.e. why is the universe primarily made of matter rather than anti-matter. 
+%
+Although, \Joaoout{note that} the Electroweak baryogenesis (EWBG) remains a theoretically possible scenario for explaining the cosmic baryon asymmetry \Joao{Ref.}, a scenario viable in the SM framework.
+%
+Thirdly, the SM suffers from peculiar oddities in the fermion sector in the form of unjustified mass and mixing hierarchies. This is usually refereed to as the \Joaorep{\textit{flavour problem}}{flavour problem} and is considered a sizeable drawback of the SM .  
+%
+As \Joaorep{a}{an} example, we observe the top quark to be five order of magnitudes heavier \Joaoadd{than} the up quark , and eleven orders of magnitude than the observed neutrino masses \Joao{secalhar põe aqui os valores das massas, fica mais elucidativo, ou pelo menos, a ordem. Para o top $\mathcal{O}(100)$ GeV, o up $\mathcal{O}(1)$ MeV e os neutrinos $\mathcal{O}(1)$ eV}. These high differences are thought to be too large to be natural, so a physical property that would justify such gap is a desired property of most Beyond the Standard Model (BSM) frameworks. 
+%
+Fourth, \Joaoout{note} neutrino masses are not included in the SM. Although there are precise oscillation measurements \Joao{Ref.} that \Joaorep{measure}{estimate} masses in the eV range with precise mixing \Joaoout{in} between 3 different generations of neutrinos \Joao{Uma nota aparte, as oscilações dos neutrinos dependem da diferença de massas entre gerações $\Delta m$ e não da massa absoluta de cada um, ou seja, um deles pode não ter massa, mas um outro tem de ter}. 
+%
+There are still many other subtitle flaws, like the lack of a strong phase transition, \Joaoadd{the hiearchy problem, the $R_\kappa$ and g-2 anomalies,} etc.  \Joao{Mencionar pelo menos a anomalia g-2, pois analisas mais à frente no B-L-SM} 
+
+These are just some of the typical justifications given to explore possible BSM scenarios. The holy grail of which would be a model that \Joaorep{include}{solves} all \Joaoadd{of} these problems in a properly motivated framework that addresses these and many more cosmological, gravitational \Joao{Gravitational? O que queres disser aqui? Não falas de gravidade quântica na tese.} and phenomenological problems.  
+% 
+For now\Joaoadd{,} such a model remains out of reach, so the narrowing down of theories through phenomenological studies is a very worthwhile endeavour. We try to present one of these studies in this work. % to the steady advancement of a more complete theory. 
+%
+Paradoxically \Joaoout{fortunately}, as of late\Joaoadd{,} these studies have become progressively harder to perform given that the available space for new physics \Joaoadd{(NP)} gets reduced by each successful particle experiment. 
+%
+Chief among \Joaorep{these experiments}{them} \Joaorep{is the}{are the CMS and ATLAS experiments at the} \Joaoout{Large Hadron Collider} LHC, whose large amount of collect data over past years is setting \Joaorep{more and more stringent}{ever stringent} bounds on viable parameter spaces of popular BSM scenarios. 
+%
+And as \Joaoadd{the} available space for \Joaorep{new physics}{NP} decreases\Joaoadd{,} it becomes more challenging to reveal \Joaoadd{the} remaining space without falling within the possibility of fine tuning our model.  
+
+%{\color{blue} How to properly explain what fine tunning is? Should I?}
+
+Note, that the SM has \Joaorep{shown increasingly}{increasingly shown} \Joaorep{consistence}{consistency} with most constraints that were initial believed to be a possible gateway to \Joaoout{new physics} NP or that would diverge from \Joaorep{it's}{its} predictions. Thus, the search continues for hints at possible directions to complete the SM. % One of these is brought to use trough flavour physics, as we'll soon examine further bellow. 
+
+Conventionally, phenomenological simulations of BSM searches in these multi-dimensional parameter spaces have been made in large computer-clusters, \Joaorep{with use of}{requiring} several weeks of computational time trough \Joaorep{simple}{the use of} Monte-Carlo methods. 
+%
+Although this is the basis of the work presented here\Joaoadd{,} a effort was made to incorporate new machine learning routines \Joaorep{trough}{via} the initial building of smaller learning sets \Joaorep{trough}{by} conventional methods. 
+%
+Unfortunately this \Joaorep{wasn't}{was not} accomplished in this work due to the \Joaorep{expectational}{exceptional} setbacks. A feature of this year, that \Joaorep{affected partially}{partially affected} the quality of the work. 
+
+\Joao{Como não fazes machine learning, acho que não te devias referir a isto.}
+
+%%%% so far so good
+
+During this \Joaorep{work}{thesis} we \Joaoout{shall} \Joaorep{do}{embark in} a small expedition into two possible BSM scenarios.
+%
+To achieve this, we will start by laying down the fundamental basis for this BSM discussion by presenting a short overview of the SM \Joaorep{, then we discuss possible extensions}{followed by a discussion into potential extensions of this framework.}\Joaoout{ to the SM}. \Joaorep{Namely, first by presenting}{First, we introduce} the B-L-SM model, a simple unitary extension based on a apparently accidental symmetry of the SM.  \Joao{Que simetria? Acho que ficava bem mencionar aqui}.
+%
+\Joaorep{And then by moving on}{Then, we move on} to a more complex model with additional Higgs doublets fields as \Joaorep{a}{an} attempt to present a framework that addresses the \Joaorep{\textit{flavour problem}}{flavour problem}. 
+%
+We will see how these \Joaoout{multiple doublet} \Joaorep{Models}{models} can address problems that \Joaoadd{a} simple unitarity extension \Joaorep{can't}{can not} and vice-versa. For example\Joaoadd{,} multiple Higgs \Joaorep{Doubles}{doublets} can easily offer \Joaorep{a}{an} explanation for the observed excess of charge parity or $\mathcal{CP}$ violation \Joaoadd{b}ut suffer from the possible inclusion of tree-level Flavour Changing Neutral Currents (FCNCs). These FCNCs are undesirable\Joaoadd{,} at least in large number\Joaoadd{,} given \Joaoadd{current} observations \Joao{Refs.}, so mechanisms have to be put in place to prevent them, while in the case of the simple unitary extensions such problems do not arise. 
+
+%We will see how these models with more than one Higgs doublet can address yet another, thus far, unmentioned problem in the SM, the observed excess of charge parity or $\mathcal{CP}$ violation.  
+%
+%While suffering the possible the drawbacks of potentially having large Flavour Changing Neutral Currents (FCNCs). These FCNCs are undesirable at least in large number given observations, although multiple Higgs Doublets could include these diagrams at tree-level, making them very problematic. We present a specific version of a Multiple Higgs Doublet, specifically a 3HDM model with a symmetry mechanism that will suppress these FCNCs. 
+
+I also want to stress that, while the \Joaorep{minimally}{minimal} structure of the Higgs sector postulated by the SM is not \Joaorep{a}{an} immediate contradiction \Joaorep{of}{to experimental} measurements. It is not manifestly required by the data. \Joaorep{And in fact}{In fact,} \Joaorep{a}{an} extended scalar sector is often \Joaorep{desired}{desirable,} despite \Joaoout{the  relatively} tight bounds on \Joaoadd{the} Higgs boson couplings to SM gauge boson\Joaoadd{s} and heavy fermions. 
+%
+These additions are motivated \Joaoout{also in part} by \Joaoadd{the fact that} in the  SM,  the  single Higgs  doublet is  a bit "overstretched".  It  takes  care\Joaoadd{,} simultaneously\Joaoadd{,}  of the \Joaorep{masses of the gauge bosons}{gauge bosons masses} \Joaorep{and of}{,} the up and down-type \Joaorep{fermions}{quarks} \Joaorep{and}{as well as the} leptons. N-Higgs-doublet models \Joaorep{and}{have multiple} scalar or complex fields \Joaoadd{that} relax  this  requirement.   
+%
+In particular\Joaoadd{,} \Joaoout{the} multiple Higgs doublet models are \Joaorep{based "natural"}{are engineered based on naturalness arguments, that is,}\Joaoout{,  suggestion,  that} the  notion  of  generations  can  be  brought  to  the  Higgs  sector.
+\Joao{Esta última frase está um bocado confusa. Acho que a devias reescrever.}
+\\ \\
+\Joao{Algumas notas gerais, eu notei que estas a confundir o uso de ``a'' e ``an''. Usas ``a'' quando a palavra seguinte começa com uma consoante, usas ``an'' quando começa com uma vogal. Também notei que trocas ``it's'' com ``its''. Lembra-te que ``it's'' é uma contração de ``it is''. Em relação a contrações, nunca as uses, pois eu notei que usaste em alguns casos.} 
+\\ \\ 
+\Joao{O principal problema são as referências, não tens quase nenhumas. Eu no texto coloquei locais onde deves pôr referências. Secalhar em outros locais possa ser necessário. Lembra-te, se não é novo ou feito no contexto desta tese, então deve ter referência. Mesmo assim, estás com quase 80 referências. Tenho que ver se todas são necessárias. Notei que tinhas o PDG repetido, já corrigi. É possível que aja outras. O facto de usares vários ficheiros .tex e .bib é confuso. Também notei que as referências não começam em [1]. A referência [1] só aparece mais tarde. Existe um bug qualquer.}
+ \\ \\ 
+ \Joao{Também notei inconsistência na definição de acronónimos. As vezes não defines ou defines demasiado tarde. Tenta garantir sempre que, no primeiro momento que aparece no texto, o acronónimo é definido.} \\ \\
+\Joao{Em geral, não está assim tão mau. Eu tentei não alterar o sentido que queres passar mas o Morais e o Felipe são capazes de fazer algumas mudanças.}\\ \\
+\Joao{Notei que a notação não é consistente. Tenta ter cuidado com isto.}
+\\ \\
+\Joao{Outros detalhes eu vou mencionado pelo texto.}
+%Both these extensions have the bonus of leading to remarkably rich  phenomenology (for a detailed review, see e.g. Refs. ( \cite{branco1999cp,Branco_2012,Ivanov_2017} ). And in general BSM scenarios offer features  as  several  Higgs  bosons,  charged  and neutral, modification of the SM-like Higgs couplings, FCNC at tree level, additional forms of CP-violation from the scalar sector, and opportunities for cosmology such as scalar DM candidates and modification of the phase transitions in early Universe. {\color{blue} Repeated, Fix later.} Also, many BSM models including supersymmetry (SUSY), gauge unification models, and even string theory constructions naturally lead to several Higgs doublets at the electroweak scale.
+
+%We give a higher repute to the Higgs Sector since fermion masses and mixing patterns relate often to the specific structure of the Higgs sector. Also, the addition of new scalars offer a large playground for collider experimentation and often offer the inclusion of new neutrino physics. 
+
+%In short two particular multi-Higgs models will be presented in this work a phenomenological study of a 3 Higgs Doublet model (3HDM) with softly broken $\U \times \mathrm{Z_2}$ symmetry and a simple Unitarity, $\mathrm{U(1)}$, extension of the SM based on the apparent Baryon minus Lepton symmetry (B-L-SM). We'll investigate what can be learned from these models and what other physical experiments constrict them. 
+
+%The SM extensions featuring non-minimal Higgs sectors with extra Higgs doublets in analogy to fermion generations in the SM provide a fruitful playground for constructing successful BSM scenarios (for a detailed review, see e.g. Refs. \cite{branco1999cp,Branco_2012,Ivanov_2017} ).
+
+%There is also no constraints stemming from the $\rho$ parameter here.  Since all doublets couple to the gauge-bosons in the same way, the W and Z masses are determined by the single value, the sum of real VEVs. Assuming this value is 246 GeV it would retain the condition $\rho = 1 $ at tree-level. 
+
+%Multi-doublet models offer novel opportunities for CP-violation.  Within the SM, it is put by hand coming entirely from the Yukawa matrices which must be complex.  In multi-doublet models, a relative phase between vevs can arise just as a result of the minimization of the potential. Leading to a more natural and spontaneous CP-violation. 
+
+%A real or even complex singlet extension is a also simple pathway to extending the SM. In a generic model with a SM Higgs Doublet the addition of a generic gauge singlet scalar, S, could prove a link between the SM fields and a unknown hidden sector. 
+%
+%In spite of our ignorance of this hidden sector, we can simply assume a generic renormalizable self-interaction for the scalar S and investigate the joint $(\phi,S)$ potential. This would lead to a generic mixing, $\alpha$ between scalars. 
+
+%In the case the additional scalar field is complex this brings a additional degree of freedom and has the possibility of 3 neutral scalars mixing, depending on the shape of the VEV. Producing  a slightly  richer  collider  phenomenology  and  complicating its analysis.  
+
+%Are heavily constricted from experimental measurements we know that in this framework fermions and gauge bosons should primary couple to $h_\phi$. This type of mixing suppression, ($\alpha < 10^3$), but even so the heavy Higgs can in most cases decay into a pair of light ones if this channel is open kinematically, providing a avenue for detection. 
+
+%On the other hand, one or both new scalars can be symmetry protected against decay, yielding simple models of one or two-component dark matter or models with one DM candidate and a strong electroweak phase transition.
+
+%Before moving on, let us make a remark on the (absence of) CP-violation in the singlet extension of SM. Although the potential contains many complex coefficients, it does not produce CP-violating effects in the scalar sector, see \cite{branco1999cp}.
+
+\chapter{The Standard Model of Particle Physics}\label{chapter:StandardModel}
+%\section{The Standard Model of Particle Physics}
+%
+%To pave the way for our future studies we present the SM. Complete with a overview of it's mechanisms and a brief historical introduction.
+%
+
+\Joao{Não é necessário fazer uma secção só para isto. Comentei section{Motivation}}
+%\section{Motivation}
+
+% { \color{red} Note! The motivation should explain why we are going indepth into flavour, and the Yukawa sector. There has to be a purpose to this section! } 
+
+\Joaorep{Has}{As} stated \Joaoadd{in Chapter.~\ref{chapter:Introduction}}, it is hard to question the validity of the SM as a successful, at least approximate, framework with whom to describe the phenomenology of Particle Physics up to the largest energy scales probed by collider measurements so far\Joaoadd{. A}lthough\Joaoadd{,} some inconsistencies remain and must be addressed.  
+%
+The SM was proposed in the nineteen sixties by Glashow, Salam and Weinberg \Joao{Não é bem verdade, o SM é um conjunto de várias teorias (QCD + Higgs sector + Electrofraca). O que estes autores introduziram foi a teoria electrofraca. Acho que fica bem aqui por a referência dos papers deles.} and since \Joaoadd{then} it has been extensively tested. Both in contemporary direct searches for new physics and indirect probes via e.g. flavour anomalies and precise electroweak parameter measurements in proton-electron collisions. \Joao{Refs.} %, { \color{gray} and as said, it's been consistent with most to date.} 
+
+The path to the formulation of the SM came from previous principles \Joaorep{relating}{related} to symmetries in nature, specifically symmetry in physical laws. 
+%
+In fact, much \Joaorep{in}{of} modern physics can be attributed to Emmy Noether's work. She deduced, trough her first theorem, that if the action in a system is invariant under some group of transformations (symmetry), then there exist one or more conserved quantities (constants of motion).\Joao{Ref.} \Joaoout{which are associated to these transformations.}
+
+Physicist\Joaoadd{s} took this idea and were led to the fundamental question behind the SM, is it possible that upon imposing to a given Lagrangian the invariance under a certain group of symmetries to reach a given form for \Joaorep{it's}{its} the dynamics? 
+%
+These dynamics would be in our context, particle interactions. This train of thought first led to Quantum Electrodynamics (QED), then Quantum Chromodynamics (QCD) and finally the SM.  \Joao{Esta frase tem que ser reescrita. Eu sei o que queres disser, mas está um pouco confuso e difícil de ler. Também estás a combinar dinâmica e interacções, que são coisas distintas. Dinâmica corresponde a como os campos evoluem no espaço-tempo.}
+%
+We can quote Salam and Ward: % A. Salam and J. C. Ward, Nuovo Cim.19, 165 (1961). 
+
+\textit{“Our basic postulate is that it should be possible to generate strong,  weak and electromagnetic  interaction terms (with all their correct symmetry properties and also with clues regarding their relative strengths) by making local gauge transformations on the kinetic energy terms in the free Lagrangian for all particles.”}
+\Joao{Eu retirava a quote, ocupa espaço desnecessário, tendo em conta que apenas rearfima o que disseste anteriormente. E também é mais uma referência que ocupa espaço.}
+We are glossing over a lot of complexity here, and for the SM to be properly formulated\Joaoadd{,} additional concepts \Joaorep{would be}{are} required. In the case of \Joaoadd{the} weak interactions, the presence of \Joaorep{very heavy}{massive} weak gauge bosons require the new concept of spontaneous breakdown of the gauge symmetry \Joaorep{and the}{via that is known as the} Higgs mechanism \cite{higgs1964broken,englert1964broken,guralnik1964global} \Joao{Podes tirar uma. Tens muitas referências, por isso temos de reduzir o espaço ocupado}. 
+%
+While the concept of asymptotic freedom played a crucial role \Joaorep{to describe perturbatively}{in describing} the strong interaction at short distances \cite{politzer1973reliable,gross1973ultraviolet} \Joao{Só uma ref.}.  
+
+%\renewcommand{\cleardoublepage}{}
+%\renewcommand{\clearpage}{}
+
+\section{Internal symmetry of the Standard Model}\label{section:Symmetries_SM}
+%
+The SM is a \Joaoadd{gauge} \Joaoout{"standard"} \Joaoadd{Quantum Field Theory} \Joaoadd{(QFT)} \Joaoout{gauge theory}, that is \Joaoout{to say}, it is manifestly invariant under a set of field transformations. The SM gauge group, $\mathcal{G}_{SM}$, is seen in, \Joao{Aqui devias por uma referência ao SM, de um livro ou de lecture notes.}
+%
+\begin{equation}
+\mathcal{G}_{SM} = \mathrm{SU}(3)_{\mathrm{C}} \times \SU{L} \times \U{Y}.
+\label{eq:SM_Group}
+\end{equation} 
+%
+\Joaorep{Here we have, first, the}{Where,} $\mathrm{SU}(3)_{\mathrm{C}}$\Joaoadd{, with C being colour,} \Joaoadd{is the} group \Joaorep{corresponding to}{that describes the} \Joaoout{quantum chromodynamics} QCD \Joaoadd{sector}, responsible for the strong force. \Joaoadd{T}his symmetry will remain unbroken by the electroweak \Joaoadd{vacuum expectation value} (VEV). Secondly, we have the $\SU{L} \times \U{Y}$ portion, \Joaoadd{with L being Left and Y the hypercharge},  that will be broken by the Higgs mechanism into $\U{Q}$, the electromagnetic gauge symmetry.
+%
+Each particle stems from a field that is charged in a particular manner on each of these groups. \Joaoout{, making the charge triplets we will come to later define.} 
+%
+Given the invariance under the group in Eq.\,\eqref{eq:SM_Group} \Joao{Vê no tex como é para fazer referências das equações}, it is impossible \Joaoadd{for} \Joaoout{have} any field \Joaorep{that is charged have a explicit mass term}{, besides the scalar field, to have an explicit mass term in the bare Lagrangian.}. This chapter will focus on how the mass of particles is generate \Joaoout{trough}{via} the Higgs mechanism. And offer a brief discussion of flavour physics in the SM and how flavour changing currents can point to \Joaoout{{\color{blue} New Physics (NP)}} \Joaoadd{NP}. 
+
+%{ \color{gray} All masses for the fermions and leptons are generated trough their interactions with the Higgs Boson. This mass generation as the Higgs Boson settles into it's VEV is called the Higgs Mechanism. } 
+
+\subsubsection{Gauge Group numbers}
+\Joao{Subsubsections são um pouco desnecessárias na minha opinião, mas se quiseres podes deixar.}
+
+The full set of quantum numbers \Joaorep{in all the SMs fields}{for the SM fields} are \Joaorep{described}{shown} in \Joaoout{the} \Joaoadd{T}ables \ref{table1} and \ref{table2}\Joaoout{, this is their color charge, weak isospin number and the hypercharge, written in that order as entries in each triplet.}
+\\
+\\
+\Joao{Estás a confundir as coisas. A carga de cor e o número de isospin não é o que está na tabela. Para os grupos não abelianos, tu estás a indicar a \textbf{representação}. Por exemplo, quando disses, que o $A$ tem um número quântico de SU(2) de \textbf{3}, tu apenas estás a disser que ele é um tripleto de SU(2), $A^a=(A^1,A^2,A^3)$, sendo que o índice a está a correr sob a representação adjunta do grupo. Para campos com \textbf{2} eles são dobletos, para campos com \textbf{1} eles são singletos e portanto não participam na interacção. Por exemplo, o campo de Higgs é singleto de SU(3), logo não interage com os gluões.
+	A carga de cor é vermelha, verde ou azul e é propriedade dos quarks na interacção com os gluões (é uma espécie de carga eléctrica). O isospin fraco é definido como $I_w = Q - \frac{1}{2}Y$ com $Q$ a carga de partícula e $Y$ a hipercarga.}
+%
+\begin{table}[H]
+	\centering
+	\caption{Gauge and Scalar fields \Joaoout{dimensions} in the SM}
+	\label{table1}
+	\begin{tabular}{@{}cccccc@{}}
+		\hline	
+		Fields & Spin 0 field & Spin 1 Field & $\mathrm{SU(3)_C} \times \mathrm{SU(2)_L} \times \mathrm{U(1)_Y}$  \\
+		\hline	
+		Gluons  & $\times$  & $\Joaoadd{G}^{\Joaoadd{a}}$ & (\textbf{8},\textbf{1},0) \\	
+		A bosons & $\times$  & $A^{\Joaoadd{a}}$ & (\textbf{1},\textbf{3},0)   \\
+		B bosons & $\times$  & $B$ & (\textbf{1},\textbf{1},0)   \\
+		Higgs field & ($\phi^\pm, \phi^0 )$  & $\times$ & (\textbf{1},\textbf{2},1) \\ \hline
+	\end{tabular}
+\end{table}
+%
+\begin{table}[H]
+	\centering
+	\caption{Fermion field \Joaoout{dimensions} in the SM}
+	\label{table2}
+	\begin{tabular}{@{}cccccc@{}}
+		\hline	
+		Fields & Spin $1/2$ Field & $\mathrm{SU(3)_C} \times \mathrm{SU(2)_L} \times \mathrm{U(1)_Y}$  \\
+		\hline	
+		Quarks (3 gen.) & $Q=(u_L,d_L)$ & $(\textbf{3},\textbf{2},1/3)$ \\	
+		$\quad$        & $u_R$ & $(\textbf{3},\textbf{1},4/3)$   \\
+		$\quad$   & $d_R$ & $(\textbf{3},\textbf{1}, -2/3)$   \\
+		Leptons (3 gen.) & $L=(\nu_{e_L}, e_L )$ & $(\textbf{1},\textbf{2},-1)$  \\
+		$\quad$   & $e_R$ & $(\textbf{1},\textbf{1},-2)   $ \\ \hline
+		%
+	\end{tabular}
+\end{table}
+%
+\Joao{Para grupos não abelianos, os números devem ser colocados a negrito. Também fiz umas pequenas alterações para ficar mais visível.}
+From here, given the gauge group in Eq.\,\eqref{eq:SM_Group} and accounting for the charges and fields, we can derive the form of the SM's Lagrangian. These gauge groups are composed of 12 generators and are governed by the following algebra, 
+% 
+\begin{equation}
+\Joaoadd{\left[ M_a , M_b \right] = i f_{abc} M_c} \quad \left[ T_a , T_b \right] =  \epsilon_{abc} T_c \quad \Joaoadd{\left[ M_a , T_b \right] = \left[ M_a , Y \right]} = \left[ T_b,Y \right] = 0 
+\end{equation}
+%
+where for \Joaoout{the} $\mathrm{SU(3)_C}$ \Joaoout{triplets}, \Joaoadd{we have} $\Joaoadd{M_a}= \lambda_a/2$ \Joaoadd{with} $a = 1, . . . , 8$ \Joaoout{contrary to $\mathrm{SU(3)_c}$ singlets where, $L_a = 0$}, \Joaorep{As for the}{,for} $\mathrm{SU(2)_L}$ we have $T_i= \sigma_i/2 $ \Joaoadd{with} $i = 1, 2, 3$, \Joaoout{being that again for singlets $T_b=0$} \Joaoadd{and} $Y$ is the generator of $\mathrm{U(1)_Y}$. The symbols $\lambda$ and $\sigma$ represent the Gell-Mann and Pauli matrices, respectively. \Joao{Também estou a fazer alterações nas equações com verde. Em alguns casos é díficil de ver.}
+
+\subsection{Fields, Particles and Lagrangian of the SM}
+
+From these fields\Joaoadd{,} \Joaorep{the physical states of the SM, it's particle spectrum,}{the particle spectrum of SM} is composed by\Joaoout{, first,} the gauge bosons, \Joaoout{the weak force carriers,} $W^\pm$ and $Z$ \Joaoout{bosons}, \Joaoadd{mediators of the weak interaction} \Joaorep{and}{,} the photon $\gamma$, the electromagnetic interaction messenger and the strong force mediators, the gluons, $\Joaoadd{G}$, as well\Joaorep{, of course,}{as} \Joaoout{by} the matter particles, the fermions, composed by the quarks and leptons. \Joaoadd{A physical spin-0 scalar also emerges, known as the Higgs.}
+
+Leptons and quarks are organized in three generations each, with 2 pairs by each generation leading to 6 different particles \Joaoout{for each}. 
+%
+For quarks we have the up and down for the first generation, charm and strange for the second as well as \Joaoadd{the} top and bottom for the third one. 
+%
+Similarly, there are 6 types of leptons, the charged ones, electron, muon and tau, and the associated neutrinos. These are represented in different manners, being that the quarks are represented by the letters $(u,d,c,s,t,b)$ while leptons as $(e,\nu_{e},\mu,\nu_{\mu},\tau,\nu_{\tau})$. 
+
+Fermions are half integer spin particles\Joaoadd{,} half of which have electrical charge (except the neutrinos).  While quarks interact via the weak, electromagnetic and strong forces, the charged leptons only feel the electromagnetic and weak forces and the neutrinos are weakly interacting.  
+%
+A physical fermion is composed of a left-handed and a right-handed field. \Joaorep{While the left \Joaoadd{components} transform as $\mathrm{SU(2)_L}$ doublet}{The left-handed components of the fermions are doublets under $\mathrm{SU(2)_L}$} and can be written as
+%
+\begin{equation}\label{eq:Left_boys}
+L^i= \begin{pmatrix}
+\nu_{e_L} \\ e_L 
+\end{pmatrix},
+\begin{pmatrix}
+\nu_{\mu_L} \\ \mu_L 
+\end{pmatrix},
+\begin{pmatrix}
+\nu_{\tau_L} \\ \tau_L 
+\end{pmatrix} 
+\quad 
+\text{and} \quad Q^i= \begin{pmatrix}
+u_{L} \\
+d_L 
+\end{pmatrix},\begin{pmatrix}
+c_{L} \\
+s_L 
+\end{pmatrix}
+,\begin{pmatrix}
+t_{L} \\
+b_L 
+\end{pmatrix} \quad ,
+\end{equation}
+where the $i$ index stands for generation, often designed as the flavour index. \Joaorep{the latter are $\SU{L}$ singlets and can be simply represented as}{Conversely, the right-handed components are singlets of $\mathrm{SU(2)_L}$ and are represented as}
+%
+\begin{equation}\label{eq:Right_boys}
+e^i_R=\{e_R,\mu_R,\tau_R\}, \quad  u^i_R=\{u_R,c_R,t_R\}, \quad d^i_R=\Joaoadd{\{d_{R},s_{R},b_{R}\}}, 
+\end{equation}
+%
+note also that the quarks form triplets of $\mathrm{SU(3)_C}$ whereas leptons are colour singlets \Joaoadd{meaning that only quarks interact strongly.} The Higgs boson also emerges from an $\mathrm{SU(2)_L}$ doublet with the form,
+%
+\begin{equation}\label{eq:Higgs_doublet}
+H=\begin{pmatrix}
+\phi^1 + \; i \; \phi^2 \\
+\phi^3 + \; i \; \phi^4  
+\end{pmatrix}, 
+\end{equation}
+%
+\Joao{Não ponhas quad depois das equações. Tens que pensar que as equações são uma continuação do texto, e as vírgulas estão agarradas a letra anterior}
+%The Lagrangian that describes all vector particles and gauge fields in the SM can be writen as
+%
+\Joaorep{Here}{where} we see the four components that correspond to the respective degrees of freedom of the Higgs Field.
+% 
+After the process of \Joaoadd{spontaneous symmetry breaking} (SSB) of the $\mathrm{SU(2)_L} \times \U{Y}$ group the charges \Joaoout{of the fermions along their QCD and QED numbers} become 
+%
+\begin{table}[H]\label{tab:Charges_post_SSB}
+	\caption{Quark and Lepton charges. \Joao{Novamente, a negrito para não abelianos}}
+	\centering
+	\begin{tabular}{ccc}
+		\hline & $\mathrm{SU(3)_C}$ & $\mathrm{U(1)_Q}$ \\
+		\hline 
+		Up type quarks $(u,c,t)$ & \textbf{3} & 2/3 \\
+		Down type quarks $(d,s,b)$ & \textbf{3} & -1/3 \\
+		Charged leptons $(e,\mu,\tau)$ & \textbf{1} & -1 \\
+		Neutrinos  $(\nu_e,\nu_\mu,\nu_\tau)$  & \textbf{1} & 0 \\
+		\hline	
+	\end{tabular}
+\end{table}
+
+\subsubsection{Lagrangian formulation }
+%
+Given the SM gauge groups, \Joaoadd{seen in Eq.\,\eqref{eq:SM_Group}} and charges, \Joaoadd{seen in Tables \ref{table1} and \ref{table2}} the covariant derivative, $D_\mu$, \Joaoout{will} read\Joaoadd{s} as
+%
+\begin{equation}
+\label{eq:PartialDefSM}
+D_\mu = \partial_\mu - i \Joaoadd{g_s} \Joaoadd{M^a} G^a_\mu - i g T^i A^i_\mu - i g' Y B_\mu.
+\end{equation}  
+%
+\Joao{Acho que o último tem de estar a dividir por dois. Confirma.} We can expect 3 different type of couplings, $g_s$ related to the $\mathrm{SU(3)_C}$ subgroup, $g$ to the $\mathrm{SU(2)_L}$ and $g^\prime$ to $\mathrm{U(\Joaoadd{1})_Y}$. The associated canonical field strength tensors would be,
+\begin{equation}\label{eq:Field_strength_tensors}
+\begin{aligned}
+G_a^{\mu \nu} & = \partial^\mu G^\nu_a - \partial^{\Joaoadd{\nu}} G^\mu_a - g_s f_{abc} G_{\Joaoadd{b}}^\mu G_{\Joaoadd{c}}^\nu,  \\ 
+A_a^{\mu \nu} & = \partial^\mu A^\nu_a - \partial^\nu A^\mu_a  - g \epsilon_{abc} A^\mu_b A^\nu_c, \\
+B^{\mu \nu}   & = \partial^\mu B^\nu - \partial^\nu B^\mu.
+\end{aligned}
+\end{equation}
+It is often convenient to present the SM Lagrangian in portions, usually divided in three sections\footnote{\Joaoadd{Of course, there is also the need for the introduction of gauge fixing terms and ghosts. However, this is merely a formal requirement and does not imply addition of new physical states.}},
+\begin{equation}\label{eq:SM_baby_lagrangian}
+\mathcal{L}_{SM} = \mathcal{L}_{kin}  +  \mathcal{L}_{Yuk} +  \mathcal{L}_{\phi}\Joaoadd{,}
+\end{equation}
+\Joaoadd{w}here we have the kinetic portion of the SM terms, $\mathcal{L}_{kin}$, responsible for  free propagation of particles, the Yukawa portion, $\mathcal{L}_{Yuk}$  corresponding to interactions of particles with the Higgs \Joaoadd{b}oson, and finally the $\mathcal{L}_{\phi}$ scalar potential. The full kinetic portion of the SM read, 
+%
+\begin{equation}\label{eq:KinSM}
+\begin{aligned}
+\mathcal{L}_{kin} = & - \frac{1}{4} G^{\Joaoadd{\mu\nu}}_a G_{a \,\Joaoadd{\mu\nu}}  - \frac{1}{4}  A^{\Joaoadd{\mu\nu}}_a A_{a \,\Joaoadd{\mu\nu}}  
+- \frac{1}{4}  B^{\Joaoadd{\mu\nu}} B_{\Joaoadd{\mu\nu}}  \\ 
+& -i \Joaoadd{\bar{Q}}_{\Joaoadd{i}} \slashed{D} Q_{\Joaoadd{i}} 
+-i \Joaoadd{\bar{u}}_{R_i} \slashed{D} u_{R_i}  
+-i \Joaoadd{\bar{d}}_{R_i} \slashed{D} d_{R_i}  
+-i \Joaoadd{\bar{L}}_{\Joaoadd{i}} \slashed{D} L_{\Joaoadd{i}}    
+-i \Joaoadd{\bar{e}}_{R_i} \slashed{D} e_{R_i}   \\
+& - (D_\mu H)^\dagger ( D^\mu H ),    
+\end{aligned}
+\end{equation}
+\Joaoadd{w}here $\slashed{D}$ is the Dirac covariant derivative, $\gamma^\mu D_\mu$. From the last line \Joaoadd{of} Eq.\,\eqref{eq:KinSM} and with Eq.\,\eqref{eq:PartialDefSM} we will present how the \Joaorep{generators}{fields} $A^{\Joaoadd{a}}_\mu$ and $B_\mu$ give rise to the weakly interacting vector bosons $W^\pm$ and $Z^0$ and the electromagnetic vector boson $\gamma$. Contrary to the colo\Joaoadd{u}r sector, where the eight generators $G^a_\mu$ simply correspond to eight gluons $\Joaoadd{G}$ \Joaoout{a} mediating \Joaoadd{the} strong interactions.
+%
+\Joaorep{While the}{The} scalar potential part \Joaoadd{is written as} 
+%
+\begin{equation}
+\label{eq:PotentialSM}
+\mathcal{L}_{\phi} = -\mu^2 H H^\dagger - \lambda (H H^\dagger)^2.
+\end{equation}
+Finally the Yukawa portion of the Lagrangian \Joaorep{would be written as}{is} 
+\begin{equation}
+\label{eq:YukawaSM}
+\mathcal{L}_{Yuk} = Y^u_{ij} \Joaoadd{\bar{Q}}_{\Joaoadd{i}} u_{R_j}  \tilde{H} + Y^d_{ij} \Joaoadd{\bar{Q}}_{\Joaoadd{i}}  d_{R_j} H  + Y^e_{\Joaoadd{ij}} \Joaoadd{\bar{L}}_{\Joaoadd{i}}  e_{R_{\Joaoadd{j}}} H + \Joaoadd{\mathrm{H.c.}},
+\end{equation}
+%
+\Joaorep{Here}{where} \Joaoout{we have,} \Joaoadd{$\tilde{H}=i\sigma_2 H$ and $\mathrm{H.c.}$ represents the Hermitian conjugate of previous terms. $Y^{e,u,d}$ stand for the Yukawa matrices, these are generic $3\times3$ with complex and non-dimensional matrix elements.}
+%
+%{ \color{gray} It is due to the Yukawa interactions between the Higgs and the fermions and leptons that these acquire their masses once the Higgs settles into his VEV. } { \color{blue} same as before }
+%
+\Joaoout{We'll define these fields in the relevant section.} Note that \Joaoout{naturally} all indices \Joaorep{seem}{seen} in Eqs.\,\eqref{eq:KinSM}, \eqref{eq:PotentialSM} and \eqref{eq:YukawaSM}, ($i,j$) are summed over. 
+
+
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+
+\section{The Higgs mechanism and the mass generation of the Gauge bosons}\label{section:Higgs_mechanism}
+
+From what was defined above, we can now study the process \Joaoadd{of} SSB by which, 
+%
+\begin{equation}\label{eq:breaking_SSB}
+\SU{L}\times\U{Y} \rightarrow \U{Q}.
+\end{equation} 
+%
+\Joaoout{and carry trough to the Higgs Mechanism.} Enabling us to find the real physical states of the gauge bosons and the origin of their mass. Let us \Joaoout{then} consider the part of the Lagrangian containing the scalar covariant derivatives, the scalar potential and the gauge-kinetic terms,
+%
+\begin{equation}
+\mathcal{L}_{Gauge} \supset (D_\mu H)(D^\mu H)^\dagger - \mu^2 H^\dagger H - \lambda (H^\dagger H)^2 - \frac{1}{4}  W^{\Joaoadd{\mu\nu}}_a W_{a \,\Joaoadd{\mu\nu}}  
+- \frac{1}{4}  B^{\Joaoadd{\mu\nu}} B_{\Joaoadd{\mu\nu}}\Joaoadd{,}
+\label{eq:GaugeSM}
+\end{equation} 
+% 
+We expect a phase shift to occur, namely one that ensures $\mu^2 < 0$ while at the same \Joaorep{ensuring}{guarantying} that the field now explicitly breaks the $\mathrm{SU(2)_L \times U(1)_Y}$. For this to happen we expect the shifted squared value of the Higgs field to be,
+%
+\begin{equation}\label{eq:vev}
+(H^\dagger H)^{\Joaoadd{2}} = \frac{-\mu^2}{2\lambda} \Joaoadd{\equiv v^2}, 
+\end{equation} 
+\Joaoout{This VEV,} called the electroweak VEV, is experimentally measured to be $v \approx 246$ GeV. 
+%
+The choice of vacuum can be aligned in such a way that we have,
+\begin{equation}\label{eq:vev_expansion}
+H_{min} = \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\
+v 
+\end{pmatrix}.
+\end{equation}
+Given that now the $SU(2)_L \times U(1)_Y$ symmetry is broken down to $U(1)_Q$, we jump from a scenario where there were four generators, which are $T^{1,2,3}$ and $Y$, to\Joaoout{, after the breaking,} having solely one unbroken combination that is $Q =  (T^3 + 1/2)$ associated to the electric charge. This means that in total we will have three broken generators, thus, from \Joaoadd{the} Goldstone \Joaoadd{t}heorem, there would have to be created three massless particles. 
+
+These Goldstones modes\Joaoadd{,} however\Joaoadd{,} can \Joaoout{then} be \Joaorep{parametrized}{parameterized} as phases in \Joaoout{the} field space and \Joaoout{then} can be \Joaoadd{``}rotated away\Joaoadd{''} in the physical basis, leaving us with a single physical massive scalar, the Higgs boson. Note that, with this transformation we are removing three scalar degrees of freedom.  However, they cannot just disappear from the theory and will be absorbed by the massive gauge bosons.
+%
+In fact, a massless gauge boson contains only two scalar degrees of freedom (transverse and polarization). Meanwhile, a massive vector boson has two transverse and a longitudinal polarization, i.e., three scalar degrees of freedom. So, as we discussed above, while before the breaking of the EW symmetry we have four massless gauge bosons \Joaoadd{and} after the breaking we are left with three massive ones. This means that there are three extra scalar degrees of freedom showing up in the gauge sector. It is then commonly said that the \Joaoadd{G}oldstone bosons are ``eaten'' by the massive gauge bosons and the total number of scalar degrees of freedom in the theory is preserved. Therefore, without loss of generality, we can rewrite the Higgs doublet as
+%
+\begin{equation}
+\begin{pmatrix}
+G_1 + i G_2 \\ 
+v + \Joaoadd{h} + i G_3 
+\end{pmatrix} = \Joaoadd{H} \rightarrow \Joaoadd{H}  =  \frac{1}{\sqrt{2}} \begin{pmatrix}
+0 \\ 
+v + \Joaoadd{h} 
+\end{pmatrix}.
+\label{shame}%Oki
+\end{equation}
+Once the Higgs doublet acquires a VEV, the Lagrangian \eqref{eq:GaugeSM} can be recast as:
+%
+\begin{align}
+\mathcal{L}^\prime = & \frac{1}{2} \partial_\mu h \partial^\mu h - \frac{1}{2} (2v^2 \lambda) h^2
+- \frac{1}{4}  W^{\Joaoadd{\mu\nu}}_a W_{a \,\Joaoadd{\mu\nu}}  
+- \frac{1}{4}  B^{\Joaoadd{\mu\nu}} B_{\Joaoadd{\mu\nu}}  \nonumber \\
+& + \frac{1}{8} v^2 g^2 (A^1_\mu A^{1,\mu}+ A^2_\mu A^{2,\mu}) +  \frac{1}{8} v^2  (g^2  A^3_\mu A^{3,\mu} + g^{\prime 2} B_\mu B^\mu - 2 g^2 g^{\prime 2} A^3_\mu B^\mu ). 
+\label{complicatedpart}
+\end{align}
+%
+A few things become obvious. \Joaoadd{F}irst, we have a lot of mass terms \Joaoout{most} stemming from the squared gauge fields and a lonesome \Joaoout{squared} mass term belonging to the real scalar field we know to be the Higgs field. This makes the Higgs boson mass \Joaoout{in the SM} to be given by
+%
+\begin{equation}\label{eq:Higgs_mass}
+M_h= (2v^2 \lambda).  
+\end{equation}
+%
+To obtain masses for the gauge bosons we need to rotate the gauge fields to a basis where the mass terms are diagonal. First, it is straightforward to see that the electrically charged eigenstates are given by %\ref{gagestate}
+%First the fields that carry defined charge that can be easily shown to be 
+\begin{equation}
+W^\pm_\mu = \frac{1}{\sqrt{2}} (A^{(1)}_\mu \pm i A^{(2)}_\mu), 
+\label{gagestate}
+\end{equation}
+meaning that the mass of the W bosons is, 
+\begin{equation}
+M_{W^\pm}= \frac{1}{2} v g.
+\end{equation}
+%
+The situation becomes a bit more complicated for the second term in \eqref{complicatedpart} due to \Joaoout{a} mixing between $A_\mu^3$ and $B_\mu$. In the gauge eigenbasis the mass terms read
+%
+\begin{equation}\label{eq:Mass_matrix_diag_1}
+\begin{pmatrix}
+A_\mu^3 && B_\mu
+\end{pmatrix} \cdot  \frac{1}{4} \nu ^2 \begin{pmatrix}
+g^2  & -g g^\prime \\
+-g g^\prime & g^{\prime 2} 
+\end{pmatrix} \cdot \begin{pmatrix}
+A_\mu^3 \\  B_\mu
+\end{pmatrix}, 
+\end{equation} 
+%
+which can be diagonalized to obtain
+%
+\begin{equation}\label{eq:Mass_matrix_diag_2}
+\begin{pmatrix}
+A_\mu && Z_\mu 
+\end{pmatrix} \begin{pmatrix}
+0  & 0 \\
+0  & \frac{1}{2} v \sqrt{g^2 + g^{\prime 2}} 
+\end{pmatrix}  \begin{pmatrix}
+A^\mu \\ Z^\mu
+\end{pmatrix}, 
+\end{equation}
+%Where the new eigenvectors that represent the $Z$ boson and the photon, $A^\mu$ in terms of the former base are written as,
+%
+\Joaoadd{where} we identify the eigenvector associated \Joaorep{to}{with} the \Joaoadd{null} eigenvalue \Joaoout{0} to \Joaoadd{be} the photon and the massive one, $ M_Z =  \frac{1}{2} v \sqrt{g^2 + g^{\prime 2}} $, to \Joaoadd{be} the Z boson. Such eigenvectors can be written as
+%
+\begin{align}
+A_\mu &=\cos(\theta_{\Joaoadd{W}}) B_\mu + \sin(\theta_{\Joaoadd{W}}) A_\mu^3,  \\  
+Z_\mu & =- \sin(\theta_{\Joaoadd{W}}) B_\mu + \cos(\theta_{\Joaoadd{W}}) A_\mu^3, 
+\end{align}
+%
+where $\theta_{\Joaoadd{W}}$ is the so called Weinberg mixing angle and is defined as
+%
+\begin{equation}
+\cos(\theta_\omega)=\frac{g}{ \sqrt{g^2 + g^{\prime 2}}}.  
+\end{equation}
+%
+\Joaoadd{T}hus \Joaoout{clearly} showing the massless photon along with a massive Z boson with mass $M_Z= \frac{1}{2} \nu \sqrt{g^2 + g^{\prime 2}} $. 
+%
+So we conclude our exploration of the electroweak sector with all the correct massive spectrum observed and its origin discussed.
+
+
+

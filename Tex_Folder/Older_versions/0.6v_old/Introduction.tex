@@ -1,0 +1,137 @@
+%\chapter{Introduction}
+%\label{ch:Intro}
+
+\newpage
+
+\chapter{Introduction}
+\label{Chap:Introduction}
+%\section{Introduction}
+
+%\section{The Sturdy SM with some holes}
+
+% The modern study of particle physics must be taught trough the Standard Model (SM) of particle physics. 
+Our current understanding of all subatomic phenomena must be understood trough the Standard Model (SM) of particle physics. 
+%
+% The SM has thus far been the best descriptor for the experimentally observed spectra of particles and their interactions at all current probable scales. 
+%
+The SM has thus far been the best descriptor for the experimentally observed spectra of particles and their interactions at the electroweak (EW) scale. 
+%
+Being that, finally, in 2012 a resonance was discovered at the Large Hadron Collider (LHC) that confirms the existence of its last predicted particle, the Higgs boson, finally revealing all of the models particles and proving the existence of the Higgs mechanism \cite{collaborations2016measurements}. 
+% Old Citations
+%\cite{Aad_2012,chatrchyan2012observation,collaborations2015combined,collaborations2016measurements}
+
+The development of the SM was a arduous task, leading scientists successfully combine three of the four fundamental interactions of nature, the electromagnetic, weak and strong interactions, in a well motivated framework. 
+
+However, despite its successes the SM still lacks a strong explanation for several experimental observations. 
+%
+%They have become more numerous by the decade and to provide a "short" overview of some of them. 
+%
+To enumerate some of these previously alluded too problems, we have:
+%
+First, we have the fact that the SM can not account for one of the most important cosmological discoveries of the century, the existence of dark matter \cite{Bergstr_m_2000}. 
+%
+This is a fundamental flaw since the SM lacks a possible dark matter candidate, or dark particle. % {\color{red} (It is already discussed in 6. Should I put the ciation here again?).} 
+%
+%Secondly, neither the SM, nor the theory of general relativity, offer any justification for the existence of baryon asymmetry in the universe, i.e. why is the universe primarily made of matter rather than anti-matter \cite{book_Baryion}. 
+
+Secondly, the SM does not offer any justification for the existence of baryon asymmetry in the universe, i.e. why is the observable universe primarily composed of matter rather than anti-matter \cite{book_Baryion}. 
+%
+%Note, that a popular proposed scenario as to explain cosmic baryon asymmetry is the Electroweak baryogenesis (EWBG) which requires some sort of new physics (NP) structure \cite{Morrissey2012}. 
+
+Thirdly, the SM suffers from peculiar oddities in the fermion sector in the form of unjustified mass and mixing hierarchies. This is usually refereed to as the flavor problem and is considered a sizable drawback of the SM. 
+%
+As an example, we observe the top quark mass ($\mathcal{O}(100)$ GeV) to be five order of magnitudes heavier than the up quark ($\mathcal{O}(1)$ MeV), and eleven orders of magnitude above the highest neutrino mass limit ($\mathcal{O}(1)$ eV) set by kinetic beta decay analysis \cite{Mertens_2016}.
+%
+%{ ( \color{red} Ask Morais: Eu sei que existem experiencias de oscilações mas eu acho que só havia um higher limits de massa nos neutrinos. Basicamente eu não sei se dizer massas de neutrinos é correto. ) }
+%
+These high differences are thought to be too large to be natural, so a physical property that would justify such gap is a desired characteristic of many Beyond the Standard Model (BSM) frameworks. 
+
+Fourth, neutrino masses (as alluded to) are not included in the SM. Although there are precise oscillation measurements that measure masses differences in the eV range with precise mixing in between 3 different generations of neutrinos \cite{PhysRevD.89.013001}. 
+
+In addition to these, there are still many other subtitle flaws, like the lack of a strong phase transition, the $R_{\kappa}$ parameter and $g-2$ anomaly of lepton magnetic moments, etc. 
+%
+These are just some of the typical justifications given to explore possible BSM scenarios. 
+%
+The holy grail of which would be a model that solves all these problems in a properly motivated framework that addresses these and many more cosmological and phenomenological problems and is in harmony with all measurements.  
+
+For now such a model remains far out of reach, and given the large number of possible solutions, the narrowing down of theories through phenomenological studies is a very worthwhile endeavor. This work will be a review of two such studies. % We try to present one of these studies in this work. % to the steady advancement of a more complete theory. 
+
+The ``normal" procedure for these kinds of studies consist in performing large a numerical analysis of all possible combinations of free parameters of a given model, which we call the parameter space, as to narrow it down trough compassion with modern bounds set by experiments. This allows us to predict exactly what observations this model could still allow for in experimental detection and measure if the proposed model could have a significant impact as to explain observed deviations or if it is, in a extreme case, completely excluded by modern limits.   
+%
+% and see how much phenomenology it can explain, or not, and even perhaps exclude the model under modern collider experiments.
+
+Paradoxically, as of late these studies have become progressively harder to perform regardless of the improvement in hardware given that the available space for NP gets reduced by each successful particle experiment. 
+%
+Chief among them are the ATLAS, CMS experiments at the LHC, whose large amount of collect data over past years is setting ever more stringent bounds on viable parameter spaces of popular BSM scenarios. 
+%
+And as available space for new physics decreases, it becomes more challenging to reveal remaining space without falling within the possibility of fine tuning our model. Fine tuning consists in carefully balancing several contributions as to, cancel or magnify as to be allowed by current bounds.    
+
+%{\color{blue} How to properly explain what fine tunning is? Should I?}
+
+Note, that the SM has shown itself consistence with most constraints that were initial believed to be a possible gateway to NP i.e. divergences from its predictions. Thus, the search continues for hints at possible directions to complete the SM. One of these is brought to use trough flavor physics, as we'll soon examine further on. 
+
+Conventionally, phenomenological simulations of BSM searches in these multi-dimensional parameter spaces have been made in large computer-clusters requiring several weeks of computational time trough simple Monte-Carlo methods. 
+%
+These simple methods are the basis for the work presented in this thesis although some modern studies have incorporated new methods to scan these complex problems like machine learning. Similar to done by our colleagues in \cite{freitas2020phenomenology}. These new methods promise to greatly increase the efficacy of similar studies.  
+%
+%Although this is the basis of the work presented here a effort was made to incorporate new machine learning routines via the initial building of smaller learning sets by conventional methods. 
+%
+%Unfortunately this wasn't accomplished in this work due to the expectational setbacks. A feature of this year, that affected partially the quality of the work. 
+
+%%%% so far so good
+
+%During this thesis we embark in a small expedition into two possible BSM scenarios.
+
+Over the course of this thesis we intent to perform two of these BSM studies. However we must begin by laying down the fundamental basis for this type discussion by presenting a short overview of the SM. 
+%
+%In this thesis we will embark in two of these kind of BSM studies.  
+%
+%Start by laying down the fundamental basis for this BSM discussion by presenting a short overview of the SM followed by a discussion into potential extensions of this framework.
+Afterwords we will present, first the B-L-SM (Baryon-Lepton-SM) model, a simple unitary extension of the SM - and then, move on to a more complex model with additional Higgs doublets fields as an attempt to present a framework that addresses the flavor problem via the Three Higgs Doublet Model (3HDM) with a stabilizing symmetry.
+%
+We will see how each of these models addresses specific problems differently and discuss the advantages and disadvantages of a simple unitary extension versus a multiple doublet approach. 
+
+For example multiple Higgs doublets can easily offer an explanation for the observed excess of charge parity or $\mathcal{CP}$ violation but suffer from the possible inclusion of tree-level Flavour Changing Neutral Currents (FCNCs). 
+%
+These FCNCs are undesirable \cite{ILYUSHIN2020114921}, at least in large number, given current observations, so mechanisms have to be put in place to prevent them, while in the case of the simple unitary extensions such problems tend to not arise \cite{Huitu2019}. 
+
+We also want to stress that, while the minimal structure of the Higgs sector postulated by the SM is not an immediate contradiction to experimental measurements it is not manifestly required by the data. 
+%
+In fact, an extended scalar sector is often desirable feature of BSM scenarios despite the tight bounds on Higgs boson couplings to the SM gauge bosons and heavy fermions. 
+{\color{red} Ask:Morais How do I cite https://pdg.lbl.gov/2019/reviews/rpp2018-rev-higgs-boson.pdf exactly instead of the whole corpus}.   
+
+These additions are partially motivated by the fact that in the SM, the single Higgs doublet is a bit "overstretched" in the SM.
+%
+It  takes  care,  simultaneously of the gauge boson masses, up and down-type quarks masses and leptons masses. 
+%
+N-Higgs-doublet models have multiple scalar and complex fields that can relax this, while the simpler unitary additions cannot address this observation % {\color{red} Is it true? Couldn't we have a singlet generate the top quark masses or only the third generation, do I need a citation?}.   
+%
+In fact these multiple Higgs doublet models are often engineered based on a naturalness argument, that is,  the  notion  of  generations  can  be  brought  to  the  Higgs  sector and these might help explain mass hierarchies. % This is not the particular case of the model we will present in this thesis. 
+
+%Both these extensions have the bonus of leading to remarkably rich  phenomenology (for a detailed review, see e.g. Refs. ( \cite{branco1999cp,Branco_2012,Ivanov_2017} ). And in general BSM scenarios offer features  as  several  Higgs  bosons,  charged  and neutral, modification of the SM-like Higgs couplings, FCNC at tree level, additional forms of CP-violation from the scalar sector, and opportunities for cosmology such as scalar DM candidates and modification of the phase transitions in early Universe. {\color{blue} Repeated, Fix later.} Also, many BSM models including supersymmetry (SUSY), gauge unification models, and even string theory constructions naturally lead to several Higgs doublets at the electroweak scale.
+
+%We give a higher repute to the Higgs Sector since fermion masses and mixing patterns relate often to the specific structure of the Higgs sector. Also, the addition of new scalars offer a large playground for collider experimentation and often offer the inclusion of new neutrino physics. 
+
+%In short two particular multi-Higgs models will be presented in this work a phenomenological study of a 3 Higgs Doublet model (3HDM) with softly broken $\U \times \mathrm{Z_2}$ symmetry and a simple Unitarity, $\mathrm{U(1)}$, extension of the SM based on the apparent Baryon minus Lepton symmetry (B-L-SM). We'll investigate what can be learned from these models and what other physical experiments constrict them. 
+
+%The SM extensions featuring non-minimal Higgs sectors with extra Higgs doublets in analogy to fermion generations in the SM provide a fruitful playground for constructing successful BSM scenarios (for a detailed review, see e.g. Refs. \cite{branco1999cp,Branco_2012,Ivanov_2017} ).
+
+%There is also no constraints stemming from the $\rho$ parameter here.  Since all doublets couple to the gauge-bosons in the same way, the W and Z masses are determined by the single value, the sum of real VEVs. Assuming this value is 246 GeV it would retain the condition $\rho = 1 $ at tree-level. 
+
+%Multi-doublet models offer novel opportunities for CP-violation.  Within the SM, it is put by hand coming entirely from the Yukawa matrices which must be complex.  In multi-doublet models, a relative phase between vevs can arise just as a result of the minimization of the potential. Leading to a more natural and spontaneous CP-violation. 
+
+%A real or even complex singlet extension is a also simple pathway to extending the SM. In a generic model with a SM Higgs Doublet the addition of a generic gauge singlet scalar, S, could prove a link between the SM fields and a unknown hidden sector. 
+%
+%In spite of our ignorance of this hidden sector, we can simply assume a generic renormalizable self-interaction for the scalar S and investigate the joint $(\phi,S)$ potential. This would lead to a generic mixing, $\alpha$ between scalars. 
+
+%In the case the additional scalar field is complex this brings a additional degree of freedom and has the possibility of 3 neutral scalars mixing, depending on the shape of the VEV. Producing  a slightly  richer  collider  phenomenology  and  complicating its analysis.  
+
+%Are heavily constricted from experimental measurements we know that in this framework fermions and gauge bosons should primary couple to $h_\phi$. This type of mixing suppression, ($\alpha < 10^3$), but even so the heavy Higgs can in most cases decay into a pair of light ones if this channel is open kinematically, providing a avenue for detection. 
+
+%On the other hand, one or both new scalars can be symmetry protected against decay, yielding simple models of one or two-component dark matter or models with one DM candidate and a strong electroweak phase transition.
+
+%Before moving on, let us make a remark on the (absence of) CP-violation in the singlet extension of SM. Although the potential contains many complex coefficients, it does not produce CP-violating effects in the scalar sector, see \cite{branco1999cp}.
+
+
+
+
