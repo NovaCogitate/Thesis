@@ -7,3 +7,5 @@ Although my degree was supposed to be focused mainly on solid state, simulation 
 Perhaps I was not thinking clearly at the time and not thinking 5 years ahead... The only thing this thesis contributed in the long run to my life was giving me extensive coding and physical simulation skills and two scientific journal publications. 
 
 Please peer at your hearts content but there is little to no coding here. 
+
+![PostCard](https://github.com/NovaCogitate/Thesis/assets/70231839/59fcc9af-fcb1-4c0a-8fdd-1f77bec52e8d)
