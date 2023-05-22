@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{SM Introduction}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Introduction - Context}{3}{0}{1}
-\beamer@sectionintoc {2}{B-L-SM section}{14}{0}{2}
